@@ -6,8 +6,13 @@
     <div class="skills_container container grid">
       <div class="skills_left">
         <!-- PROGRAMMING LANGUAGES -->
-        <div class="skills_content skills_open">
-          <div class="skills_header">
+        <div
+          :class="[
+            'skills_content',
+            openSkill === 0 ? 'skills_open' : 'skills_close',
+          ]"
+        >
+          <div class="skills_header" @click="toggleSkills(0)">
             <i class="uil uil-server-network skills_icon"></i>
             <div>
               <h1 class="skills_title">Programming Languages</h1>
@@ -55,8 +60,13 @@
           </div>
         </div>
         <!-- FRONTEND TECHNOLOGIES -->
-        <div class="skills_content skills_close">
-          <div class="skills_header">
+        <div
+          :class="[
+            'skills_content',
+            openSkill === 1 ? 'skills_open' : 'skills_close',
+          ]"
+        >
+          <div class="skills_header" @click="toggleSkills(1)">
             <i class="uil uil-brackets-curly skills_icon"></i>
             <div>
               <h1 class="skills_title">Frontend Technologies</h1>
@@ -126,8 +136,13 @@
 
       <div class="skills_right">
         <!-- DATABASE SKILLS -->
-        <div class="skills_content skills_close">
-          <div class="skills_header">
+        <div
+          :class="[
+            'skills_content',
+            openSkill === 2 ? 'skills_open' : 'skills_close',
+          ]"
+        >
+          <div class="skills_header" @click="toggleSkills(2)">
             <i class="uil uil-database skills_icon"></i>
             <div>
               <h1 class="skills_title">Database Design</h1>
@@ -159,8 +174,13 @@
           </div>
         </div>
         <!-- OTHER TOOLS & TECHNOLOGIES -->
-        <div class="skills_content skills_close">
-          <div class="skills_header">
+        <div
+          :class="[
+            'skills_content',
+            openSkill === 3 ? 'skills_open' : 'skills_close',
+          ]"
+        >
+          <div class="skills_header" @click="toggleSkills(3)">
             <i class="uil uil-link skills_icon"></i>
             <div>
               <h1 class="skills_title">Other Tools & Technologies</h1>
@@ -212,3 +232,13 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+import { ref } from "vue";
+
+const openSkill = ref<number | null>(0);
+
+const toggleSkills = (index: number) => {
+  openSkill.value = openSkill.value === index ? null : index;
+};
+</script>
