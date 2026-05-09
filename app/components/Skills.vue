@@ -1,7 +1,7 @@
 <template>
   <section class="skills section" id="skills">
-    <h2 class="section_title">Skills{{ $t("Skills.title") }}</h2>
-    <span class="section_subtitle">My technical level{{ $t("Skills.subtitle") }}</span>
+    <h2 class="section_title">Skills</h2>
+    <span class="section_subtitle">My technical level</span>
 
     <div class="skills_container container grid">
       <div class="skills_left">
@@ -15,16 +15,16 @@
           <div class="skills_header" @click="toggleSkills(0)">
             <i class="uil uil-server-network skills_icon"></i>
             <div>
-              <h1 class="skills_title">{{ $t("Skills.programmingLangTitle") }}</h1>
-              <span class="skills_subtitle">{{ $t("Skills.programmingLangSubtitle") }}</span>
+              <h1 class="skills_title">Programming Languages</h1>
+              <span class="skills_subtitle">More than 3 years</span>
             </div>
             <i class="uil uil-angle-down skills_arrow"></i>
           </div>
           <div class="skills_list">
             <div class="skills_data">
               <div class="skills_title">
-                <h3 class="skills_name">{{ $t("Skills.js") }}</h3>
-                <div class="skills_number">{{ $t("Skills.jsExperience") }}</div>
+                <h3 class="skills_name">Javascript</h3>
+                <div class="skills_number">80%</div>
               </div>
               <div class="skills_bar">
                 <div class="skills_percentage skills_javascript"></div>
@@ -32,8 +32,8 @@
             </div>
             <div class="skills_data">
               <div class="skills_title">
-                <h3 class="skills_name">{{ $t("Skills.ts") }}</h3>
-                <div class="skills_number">{{ $t("Skills.tsExperience") }}</div>
+                <h3 class="skills_name">Java</h3>
+                <div class="skills_number">80%</div>
               </div>
               <div class="skills_bar">
                 <div class="skills_percentage skills_java"></div>
@@ -41,8 +41,8 @@
             </div>
             <div class="skills_data">
               <div class="skills_title">
-                <h3 class="skills_name">{{ $t("Skills.vue") }}</h3>
-                <div class="skills_number">{{ $t("Skills.vueExperience") }}</div>
+                <h3 class="skills_name">PHP</h3>
+                <div class="skills_number">60%</div>
               </div>
               <div class="skills_bar">
                 <div class="skills_percentage skills_php"></div>
@@ -50,8 +50,8 @@
             </div>
             <div class="skills_data">
               <div class="skills_title">
-                <h3 class="skills_name">{{ $t("Skills.java") }}</h3>
-                <div class="skills_number">{{ $t("Skills.javaExperience") }}</div>
+                <h3 class="skills_name">C#</h3>
+                <div class="skills_number">40%</div>
               </div>
               <div class="skills_bar">
                 <div class="skills_percentage skills_csharp"></div>
