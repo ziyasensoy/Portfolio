@@ -3,19 +3,30 @@
     <div class="footer_bg">
       <div class="footer_container container grid">
         <div>
-          <h1 class="footer_title">Ziya Şensoy</h1>
-          <span class="footer_subtitle">Student Software Engineering</span>
+          <h1 class="footer_title">{{ $t("Footer.title") }}</h1>
+          <span class="footer_subtitle">{{ $t("Footer.subtitle") }}</span>
         </div>
 
         <ul class="footer_links">
           <li>
-            <a href="#about" class="footer_link">About</a>
+            <a href="#about" class="footer_link">{{
+              $t("Footer.aboutLink")
+            }}</a>
           </li>
           <li>
-            <a href="#skills" class="footer_link">Skills</a>
+            <a href="#skills" class="footer_link">{{
+              $t("Footer.skillsLink")
+            }}</a>
           </li>
           <li>
-            <a href="#contact" class="footer_link">Contact</a>
+            <a href="#minor" class="footer_link">{{
+              $t("Footer.minorLink")
+            }}</a>
+          </li>
+          <li>
+            <a href="#contact" class="footer_link">{{
+              $t("Footer.contactLink")
+            }}</a>
           </li>
         </ul>
 
@@ -45,8 +56,16 @@
       </div>
 
       <p class="footer_copy">
-        &#169; Ziya Şensoy. All rights reserved. This website is completely made
-        from scratch with HTML, CSS and Javascript
+        {{ $t("Footer.copyright", { year: new Date().getFullYear() }) }}
+      </p>
+      <p class="built-with">
+        {{ $t("Footer.builtWith") }}
+
+        <span class="icons">
+          <img src="/logos/vue_logo.svg" alt="Vue" />
+          <img src="/logos/nuxt_logo.svg" alt="Nuxt" />
+          <img src="/logos/ts_logo.svg" alt="TypeScript" />
+        </span>
       </p>
     </div>
   </footer>

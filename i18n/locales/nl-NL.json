@@ -1,3 +1,53 @@
 {
-  "home_title": "Hi I'm Ziya"
-}
+    "Header": {
+      "name": "Ziya Şensoy",
+      "aboutLink": "Over mij",
+      "skillsLink": "Vaardigheden",
+      "minorLink": "VID-minor",
+      "contactLink": "Contact"
+    },
+    "Hero": {
+      "homeTitle": "Hoi, ik ben Ziya",
+      "homeSubtitle": "Student Software Engineering",
+      "homeDescription": "Ervaring op hoog niveau in webdesign en ontwikkeling, met kennis in het produceren van kwalitatief werk.",
+      "homeContactButton": "Neem contact op",
+      "homeScroll": "Scroll naar beneden"
+    },
+    "About": {
+      "title": "Over mij",
+      "subtitle": "Mijn introductie",
+      "description": "Webontwikkelaar, met uitgebreide kennis en jarenlange ervaring in webtechnologieën en UI/UX-design, waarbij ik kwalitatief werk lever.",
+      "experience": "4+",
+      "experienceInfo": "Jaar ervaring",
+      "projects": "30+",
+      "projectsInfo": "Projecten afgerond",
+      "downloadCv": "Download CV"
+    },
+    "Contact": {
+      "title": "Contacteer mij",
+      "subtitle": "Neem contact op",
+      "phoneTitle": "Bel mij",
+      "phone": "+31 6 18944143",
+      "emailTitle": "E-mail",
+      "email": "zcsensoy{'@'}gmail.com",
+      "locationTitle": "Locatie",
+      "location": "Amsterdam, Nederland",
+      "Form": {
+        "name": "Naam",
+        "email": "E-mail",
+        "subject": "Onderwerp",
+        "message": "Bericht",
+        "sendMessage": "Verstuur bericht"
+      }
+    },
+    "Footer": {
+      "title": "Ziya Şensoy",
+      "subtitle": "Student Software Engineering",
+      "aboutLink": "Over mij",
+      "skillsLink": "Vaardigheden",
+      "minorLink": "VID-minor",
+      "contactLink": "Contact",
+      "copyright": "© {year} Ziya Şensoy. Alle rechten voorbehouden.",
+      "builtWith": "Gebouwd met:"
+    }
+  }

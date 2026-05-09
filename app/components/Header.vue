@@ -1,32 +1,32 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
-      <a href="#home" class="nav_logo">Ziya Şensoy</a>
+      <a href="#home" class="nav_logo"> {{ $t("Header.name") }} </a>
 
       <!-- MENU -->
       <div :class="['nav_menu', { 'show-menu': menuOpen }]" id="nav-menu">
         <ul class="nav_list grid">
           <li class="nav_item">
             <a href="#about" class="nav_link" @click="closeMenu">
-              <i class="uil uil-user nav_icon"></i> About
+              <i class="uil uil-user nav_icon"></i> {{ $t("Header.aboutLink") }}
             </a>
           </li>
 
           <li class="nav_item">
             <a href="#skills" class="nav_link" @click="closeMenu">
-              <i class="uil uil-award nav_icon"></i> Skills
+              <i class="uil uil-award nav_icon"></i> {{ $t("Header.skillsLink") }}
             </a>
           </li>
 
           <li class="nav_item">
             <a href="#minor" class="nav_link" @click="closeMenu">
-              <i class="uil uil-graduation-cap nav_icon"></i> VID Minor
+              <i class="uil uil-graduation-cap nav_icon"></i> {{ $t("Header.minorLink") }}
             </a>
           </li>
 
           <li class="nav_item">
             <a href="#contact" class="nav_link" @click="closeMenu">
-              <i class="uil uil-message nav_icon"></i> Contact
+              <i class="uil uil-message nav_icon"></i> {{ $t("Header.contactLink") }}
             </a>
           </li>
         </ul>

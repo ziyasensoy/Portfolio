@@ -57,14 +57,11 @@
             </div>
 
             <div class="home_data">
-              <h1 class="home_title" data-key="home_title">{{ $t("home_title") }}</h1>
-              <h3 class="home_subtitle">Student Software Engineering</h3>
-              <p class="home_description">
-                High level experience in web desgin and development knowledge,
-                producing quality work.
-              </p>
+              <h1 class="home_title" data-key="home_title">{{ $t("Hero.homeTitle") }}</h1>
+              <h3 class="home_subtitle">{{ $t("Hero.homeSubtitle") }}</h3>
+              <p class="home_description">{{ $t("Hero.homeDescription") }}</p>
               <a href="#contact" class="button button-flex">
-                Contact Me <i class="uil uil-message button_icon"></i>
+                {{ $t("Hero.homeContactButton") }} <i class="uil uil-message button_icon"></i>
               </a>
             </div>
           </div>
@@ -72,7 +69,7 @@
           <div class="home_scroll">
             <a href="#about" class="home_scroll-button button-flex">
               <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-              <span class="home_scroll-name">Scroll down</span>
+              <span class="home_scroll-name">{{ $t("Hero.homeScroll") }}</span>
               <i class="uil uil-arrow-down home_sroll-arrow"></i>
             </a>
           </div>
