@@ -44,15 +44,7 @@
         <i :class="['change-theme', icon]" @click="toggleTheme"></i>
 
         <!-- LANGUAGE SWITCHER -->
-        <div class="language_switcher">
-          <button class="lang_button" data-lang="en">
-            <img src="/flags/gb.svg" alt="English" />
-          </button>
-
-          <button class="lang_button" data-lang="nl">
-            <img src="/flags/nl.svg" alt="Nederlands" />
-          </button>
-        </div>
+        <LangSwitcher />
 
         <!-- MENU OPEN BUTTON -->
         <div class="nav_toggle" id="nav-toggle" @click="openMenu">

@@ -57,7 +57,7 @@
             </div>
 
             <div class="home_data">
-              <h1 class="home_title" data-key="home_title">Hi I'm Ziya</h1>
+              <h1 class="home_title" data-key="home_title">{{ $t("home_title") }}</h1>
               <h3 class="home_subtitle">Student Software Engineering</h3>
               <p class="home_description">
                 High level experience in web desgin and development knowledge,
