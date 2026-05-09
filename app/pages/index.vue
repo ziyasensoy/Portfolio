@@ -6,5 +6,6 @@
         <Skills />
         <Contact />
         <Footer />
+        <ScrollTopButton />
     </div>
 </template>
