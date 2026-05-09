@@ -23,6 +23,10 @@
     "projectsInfo": "Projects done",
     "downloadCv": "Download CV"
   },
+  "Minor": {
+    "title": "Minor",
+    "subtitle": "Visual Interface Design"
+  },
   "Contact": {
     "title": "Contact Me",
     "subtitle": "Get in touch",

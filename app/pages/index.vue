@@ -4,6 +4,7 @@
         <Hero />
         <About />
         <Skills />
+        <Minor />
         <Contact />
         <Footer />
         <ScrollTopButton />
