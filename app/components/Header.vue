@@ -34,7 +34,7 @@
 
         <div class="nav_btns">
           <!--theme change button-->
-          <i class="uil uil-moon change-theme" id="theme-button"></i>
+          <i :class="['change-theme', icon]" @click="toggleTheme"></i>
 
           <!-- Language switcher -->
           <div class="language_switcher">
@@ -54,3 +54,14 @@
       </nav>
     </header>
 </template>
+
+<script setup lang="ts">
+import { onMounted } from 'vue'
+import { useTheme } from '~/composables/useTheme'
+
+const { icon, toggleTheme, initTheme } = useTheme()
+
+onMounted(() => {
+  initTheme()
+})
+</script>
