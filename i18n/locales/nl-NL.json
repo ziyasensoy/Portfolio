@@ -1,59 +1,59 @@
 {
-    "Header": {
-      "name": "Ziya Şensoy",
-      "aboutLink": "Over mij",
-      "projectsLink": "Projecten",
-      "contactLink": "Contact"
+  "Header": {
+    "name": "Ziya Şensoy",
+    "aboutLink": "Over mij",
+    "projectsLink": "Projecten",
+    "contactLink": "Contact"
+  },
+  "Hero": {
+    "homeTitle": "Hallo, mijn naam is Ziya",
+    "homeSubtitle": "Software Engineering Student",
+    "homeDescription": "Ik bouw moderne webapplicaties met een focus op een strakke UI en gebruiksvriendelijkheid. Ik vind het leuk om ideeën om te zetten in functionele, gebruiksvriendelijke digitale producten.",
+    "Tags": {
+      "vue": "Vue.js",
+      "ts": "TypeScript",
+      "js": "JavaScript",
+      "tailwind": "Tailwind CSS"
     },
-    "Hero": {
-      "homeTitle": "Hallo, mijn naam is Ziya",
-      "homeSubtitle": "Software Engineering Student",
-      "homeDescription": "Ik bouw moderne webapplicaties met een focus op een strakke UI en gebruiksvriendelijkheid. Ik vind het leuk om ideeën om te zetten in functionele, gebruiksvriendelijke digitale producten.",
-      "Tags": {
-        "vue": "Vue.js",
-        "ts": "TypeScript",
-        "js": "JavaScript",
-        "tailwind": "Tailwind CSS"
-      },
-      "homeScroll": "Scroll naar beneden"
-    },
-    "About": {
-      "title": "Over mij",
-      "subtitle": "Mijn introductie",
-      "description": "Webontwikkelaar, met uitgebreide kennis en jarenlange ervaring in webtechnologieën en UI/UX-design, waarbij ik kwalitatief werk lever.",
-      "experience": "4+",
-      "experienceInfo": "Jaar ervaring",
-      "projects": "30+",
-      "projectsInfo": "Projecten afgerond",
-      "downloadCv": "Download CV"
-    },
-    "Contact": {
-      "title": "Contacteer mij",
-      "subtitle": "Neem contact op",
-      "phoneTitle": "Bel mij",
-      "phone": "+31 6 18944143",
-      "emailTitle": "E-mail",
-      "email": "zcsensoy{'@'}gmail.com",
-      "locationTitle": "Locatie",
-      "location": "Amsterdam, Nederland",
-      "Form": {
-        "name": "Naam",
-        "email": "E-mail",
-        "subject": "Onderwerp",
-        "message": "Bericht",
-        "sendMessage": "Verstuur bericht"
-      }
-    },
-    "Footer": {
-      "title": "Ziya Şensoy",
-      "subtitle": "Student Software Engineering",
-      "explore": "Verken",
-      "socials": "Sociale media",
-      "aboutLink": "Over mij",
-      "skillsLink": "Vaardigheden",
-      "minorLink": "VID-minor",
-      "contactLink": "Contact",
-      "copyright": "© {year} Ziya Şensoy. Alle rechten voorbehouden.",
-      "builtWith": "Gebouwd met:"
+    "homeScroll": "Scroll naar beneden"
+  },
+  "About": {
+    "title": "Over mij",
+    "subtitle": "Mijn introductie",
+    "description": "Ik ben een Software Engineering Student aan de {hva} binnen de opleiding HBO-ICT. Tijdens mijn stage bij {altura} heb ik gewerkt als Frontend Developer. Daar hield ik me bezig met het ontwikkelen van nieuwe functionaliteiten, het oplossen van bugs en het verbeteren van de gebruikerservaring. Tijdens mijn stageonderzoek heb ik onderzocht hoe de error handling in de frontend van de applicatie verbeterd kan worden, met een focus op usability en duidelijke feedback voor gebruikers. Ik werk graag aan gebruiksvriendelijke interfaces en vind het leuk om techniek en UI/UX met elkaar te combineren.",
+    "hva": "Hogeschool van Amsterdam",
+    "downloadCv": "Download CV"
+  },
+  "Minor": {
+    "title": "Minor",
+    "subtitle": "Visual Interface Design"
+  },
+  "Contact": {
+    "title": "Neem contact op",
+    "subtitle": "Laten we connecten!",
+    "phoneTitle": "Telefoon",
+    "phone": "+31 6 18944143",
+    "emailTitle": "E-mail",
+    "email": "zcsensoy{'@'}gmail.com",
+    "locationTitle": "Locatie",
+    "location": "Amsterdam, Nederland",
+    "Form": {
+      "name": "Naam",
+      "email": "E-mail",
+      "subject": "Onderwerp",
+      "message": "Bericht",
+      "sendMessage": "Verstuur bericht"
     }
+  },
+  "Footer": {
+    "title": "Ziya Şensoy",
+    "subtitle": "Software Engineering Student",
+    "explore": "Verken",
+    "socials": "Sociale media",
+    "aboutLink": "Over mij",
+    "projectsLink": "Projecten",
+    "contactLink": "Contact",
+    "copyright": "© {year} Ziya Şensoy. Alle rechten voorbehouden.",
+    "builtWith": "Deze website is gebouwd met:"
   }
+}

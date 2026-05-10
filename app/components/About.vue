@@ -8,31 +8,38 @@
 
       <div class="about_data">
         <p class="about_description">
-          {{ $t("About.description") }}
+          <i18n-t keypath="About.description">
+            <template #hva>
+              <a
+                class="about_link"
+                href="https://www.hva.nl"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                {{ $t("About.hva") }}
+              </a>
+            </template>
+
+            <template #altura>
+              <a
+                class="about_link"
+                href="https://altura.io"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                Altura
+              </a>
+            </template>
+          </i18n-t>
         </p>
-
-        <div class="about_info">
-          <div>
-            <span class="about_info-title">{{ $t("About.experience") }}</span>
-            <span class="about_info-name">{{ $t('About.experienceInfo').split(' ')[0] }} <br /> {{ $t('About.experienceInfo').split(' ')[1] }}
-
-            </span>
-          </div>
-
-          <div>
-            <span class="about_info-title">{{ $t("About.projects") }}</span>
-            <span class="about_info-name">{{ $t('About.projectsInfo').split(' ')[0] }} <br /> {{ $t('About.projectsInfo').split(' ')[1] }}
-
-            </span>
-          </div>
-        </div>
 
         <div class="about_buttons">
           <a
             href=""
             class="button button-flex"
             download="Curriculum Vitae - Ziya Sensoy"
-            >{{ $t("About.downloadCv") }}<i class="uil uil-download-alt button_icon"></i
+            >{{ $t("About.downloadCv")
+            }}<i class="uil uil-download-alt button_icon"></i
           ></a>
         </div>
       </div>

@@ -148,6 +148,12 @@ ul {
 
 a {
   text-decoration: none;
+  color: var(--first-color);
+  transition: 0.3s;
+}
+
+a:hover {
+  color: var(--first-color-alt);
 }
 
 img {
@@ -439,7 +445,6 @@ img {
   width: 200px;
   border-radius: 0.5rem;
   justify-self: center;
-  align-self: center;
 }
 
 .about_description {

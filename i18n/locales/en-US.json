@@ -20,21 +20,18 @@
   "About": {
     "title": "About me",
     "subtitle": "My introduction",
-    "description": "Web developer, with extensive knowledge and years of experience, working in web technologies and ui / ux design, delivering quality work.",
-    "experience": "4+",
-    "experienceInfo": "Years experience",
-    "projects": "30+",
-    "projectsInfo": "Projects done",
-    "downloadCv": "Download CV"
+    "description": "I am a Software Engineering Student at the {hva} in the HBO-ICT program. During my internship at {altura}, I worked as a Frontend Developer. There, I was involved in developing new features, fixing bugs, and improving the user experience. During my internship research, I investigated how error handling in the frontend of the application could be improved, with a focus on usability and clear feedback for users. I enjoy creating user-friendly interfaces and combining technology with UI/UX.",
+    "hva": "Amsterdam University of Applied Sciences",
+    "downloadCv": "Download Resume"
   },
   "Minor": {
     "title": "Minor",
     "subtitle": "Visual Interface Design"
   },
   "Contact": {
-    "title": "Contact Me",
-    "subtitle": "Get in touch",
-    "phoneTitle": "Call Me",
+    "title": "Get in touch",
+    "subtitle": "let's connect!",
+    "phoneTitle": "Phone",
     "phone": "+31 6 18944143",
     "emailTitle": "Email",
     "email": "zcsensoy{'@'}gmail.com",
@@ -50,13 +47,13 @@
   },
   "Footer": {
     "title": "Ziya Şensoy",
-    "subtitle": "Student Software Engineering",
+    "subtitle": "Software Engineering Student",
     "explore": "Explore",
     "socials": "Socials",
     "aboutLink": "About",
     "projectsLink": "Projects",
     "contactLink": "Contact",
     "copyright": "© {year} Ziya Şensoy. All rights reserved.",
-    "builtWith": "Built with:"
+    "builtWith": "This website is built with:"
   }
 }
