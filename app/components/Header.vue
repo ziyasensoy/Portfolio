@@ -13,14 +13,8 @@
           </li>
 
           <li class="nav_item">
-            <a href="#skills" class="nav_link" @click="closeMenu">
-              <i class="uil uil-award nav_icon"></i> {{ $t("Header.skillsLink") }}
-            </a>
-          </li>
-
-          <li class="nav_item">
-            <a href="#minor" class="nav_link" @click="closeMenu">
-              <i class="uil uil-graduation-cap nav_icon"></i> {{ $t("Header.minorLink") }}
+            <a href="#projects" class="nav_link" @click="closeMenu">
+              <i class="uil uil-bag nav_icon"></i> {{ $t("Header.projectsLink") }}
             </a>
           </li>
 

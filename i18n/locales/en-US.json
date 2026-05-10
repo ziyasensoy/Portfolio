@@ -2,12 +2,11 @@
   "Header": {
     "name": "Ziya Şensoy",
     "aboutLink": "About",
-    "skillsLink": "Skills",
-    "minorLink": "VID minor",
+    "projectsLink": "Projects",
     "contactLink": "Contact"
   },
   "Hero": {
-    "homeTitle": "Hi I'm Ziya",
+    "homeTitle": "Hello, my name is Ziya",
     "homeSubtitle": "Student Software Engineering",
     "homeDescription": "High level experience in web desgin and development knowledge,producing quality work.",
     "homeContactButton": "Contact Me",
