@@ -8,5 +8,6 @@
         <Contact />
         <Footer />
         <ScrollTopButton />
+        <HueSlider />
     </div>
 </template>

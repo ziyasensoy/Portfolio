@@ -1,5 +1,5 @@
 export const useTheme = () => {
-    const theme = useState<'light' | 'dark'>('theme', () => 'light')
+    const theme = useState<'light' | 'dark'>('theme', () => 'dark')
   
     const icon = computed(() => {
       return theme.value === 'dark' ? 'uil-sun' : 'uil-moon'
