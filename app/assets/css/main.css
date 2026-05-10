@@ -347,6 +347,39 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.hero_tags {
+  display: flex;
+  gap: 0.75rem;
+  flex-wrap: wrap;
+  margin-top: 1.5rem;
+}
+
+.hero_tag {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  background: var(--container-color);
+  border: 0.1px  var(--text-color);
+  backdrop-filter: blur(10px);
+  transition: all 0.2s ease;
+  color: var(--title-color);
+  font-size: var(--small-font-size);
+  font-weight: var(--font-medium);
+}
+
+.hero_tag img {
+  width: 18px;
+  height: 18px;
+  object-fit: contain;
+}
+
+.hero_tag:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.12);
+}
+
 .home_scroll {
   display: none;
 }

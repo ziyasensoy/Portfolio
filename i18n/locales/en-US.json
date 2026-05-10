@@ -7,9 +7,14 @@
   },
   "Hero": {
     "homeTitle": "Hello, my name is Ziya",
-    "homeSubtitle": "Student Software Engineering",
-    "homeDescription": "High level experience in web desgin and development knowledge,producing quality work.",
-    "homeContactButton": "Contact Me",
+    "homeSubtitle": "Software Engineering Student",
+    "homeDescription": "I build modern web applications with a focus on clean UI and usability. I enjoy turning ideas into functional, user-friendly digital products.",
+    "Tags": {
+      "vue": "Vue.js",
+      "ts": "TypeScript",
+      "js": "JavaScript",
+      "tailwind": "Tailwind CSS"
+    },
     "homeScroll": "Scroll down"
   },
   "About": {

@@ -6,10 +6,15 @@
       "contactLink": "Contact"
     },
     "Hero": {
-      "homeTitle": "Hoi, ik ben Ziya",
-      "homeSubtitle": "Student Software Engineering",
-      "homeDescription": "Ervaring op hoog niveau in webdesign en ontwikkeling, met kennis in het produceren van kwalitatief werk.",
-      "homeContactButton": "Neem contact op",
+      "homeTitle": "Hallo, mijn naam is Ziya",
+      "homeSubtitle": "Software Engineering Student",
+      "homeDescription": "Ik bouw moderne webapplicaties met een focus op een strakke UI en gebruiksvriendelijkheid. Ik vind het leuk om ideeën om te zetten in functionele, gebruiksvriendelijke digitale producten.",
+      "Tags": {
+        "vue": "Vue.js",
+        "ts": "TypeScript",
+        "js": "JavaScript",
+        "tailwind": "Tailwind CSS"
+      },
       "homeScroll": "Scroll naar beneden"
     },
     "About": {
