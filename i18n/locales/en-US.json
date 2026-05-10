@@ -46,9 +46,10 @@
   "Footer": {
     "title": "Ziya Şensoy",
     "subtitle": "Student Software Engineering",
+    "explore": "Explore",
+    "socials": "Socials",
     "aboutLink": "About",
-    "skillsLink": "Skills",
-    "minorLink": "VID minor",
+    "projectsLink": "Projects",
     "contactLink": "Contact",
     "copyright": "© {year} Ziya Şensoy. All rights reserved.",
     "builtWith": "Built with:"
