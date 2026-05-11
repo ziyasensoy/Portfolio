@@ -1,6 +1,10 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
+      <!-- MENU OPEN BUTTON -->
+      <div class="nav_toggle" id="nav-toggle" @click="openMenu">
+        <i class="uil uil-apps"></i>
+      </div>
       <a href="#home" class="nav_logo"> {{ $t("Header.name") }} </a>
 
       <!-- MENU -->
@@ -14,13 +18,15 @@
 
           <li class="nav_item">
             <a href="#projects" class="nav_link" @click="closeMenu">
-              <i class="uil uil-bag nav_icon"></i> {{ $t("Header.projectsLink") }}
+              <i class="uil uil-bag nav_icon"></i>
+              {{ $t("Header.projectsLink") }}
             </a>
           </li>
 
           <li class="nav_item">
             <a href="#contact" class="nav_link" @click="closeMenu">
-              <i class="uil uil-message nav_icon"></i> {{ $t("Header.contactLink") }}
+              <i class="uil uil-message nav_icon"></i>
+              {{ $t("Header.contactLink") }}
             </a>
           </li>
         </ul>
@@ -39,11 +45,6 @@
 
         <!-- LANGUAGE SWITCHER -->
         <LangSwitcher />
-
-        <!-- MENU OPEN BUTTON -->
-        <div class="nav_toggle" id="nav-toggle" @click="openMenu">
-          <i class="uil uil-apps"></i>
-        </div>
       </div>
     </nav>
   </header>
