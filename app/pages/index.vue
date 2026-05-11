@@ -3,8 +3,8 @@
         <Header />
         <Hero />
         <About />
-        <Skills />
         <Projects />
+        <Skills />
         <Contact />
         <Footer />
         <ScrollTopButton />
