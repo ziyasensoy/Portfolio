@@ -24,9 +24,9 @@
     "hva": "Amsterdam University of Applied Sciences",
     "downloadCv": "Download Resume"
   },
-  "Minor": {
-    "title": "Minor",
-    "subtitle": "Visual Interface Design"
+  "Projects": {
+    "title": "Projects",
+    "subtitle": "My work"
   },
   "Contact": {
     "title": "Get in touch",
