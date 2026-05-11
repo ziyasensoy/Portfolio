@@ -644,6 +644,52 @@ img {
   transform: rotate(-180deg);
 }
 
+/*==================== PROJECTS ====================*/
+.project {
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1.5px solid var(--first-color);
+  transition: transform 0.2s ease;
+  cursor: pointer;
+}
+
+.project:hover {
+  transform: scale(1.02);
+}
+
+.project_left {
+  display: flex;
+  flex-direction: column;
+}
+
+.project_year {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.project_right {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  align-items: flex-end;
+}
+
+.project_stack {
+  font-size: 0.8rem;
+  opacity: 0.7;
+}
+
+.project_tooltip {
+  position: fixed;
+  padding: 0.6rem 0.9rem;
+  border-radius: 10px;
+  color: white;
+  font-size: 0.85rem;
+  pointer-events: none;
+  z-index: 9999;
+}
+
 /*==================== CONTACT ====================*/
 .contact_container {
   row-gap: 3rem;
@@ -868,10 +914,14 @@ img {
   }
 
   .about_container,
-  .skills_container,
   .contact_container,
   .footer_container {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .projects_container {
+    grid-template-columns: 1fr;
+
   }
 
   .footer_container {
