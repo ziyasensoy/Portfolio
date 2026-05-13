@@ -80,14 +80,6 @@
           </div>
         </div>
       </div>
-
-      <div class="home_scroll">
-        <a href="#about" class="home_scroll-button button-flex">
-          <i class="uil uil-mouse-alt home_scroll-mouse"></i>
-          <span class="home_scroll-name">{{ $t("Hero.homeScroll") }}</span>
-          <i class="uil uil-arrow-down home_sroll-arrow"></i>
-        </a>
-      </div>
     </div>
   </section>
 </template>
