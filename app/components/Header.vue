@@ -5,29 +5,29 @@
       <div class="nav_toggle" id="nav-toggle" @click="openMenu">
         <i class="uil uil-apps"></i>
       </div>
-      <a href="#home" class="nav_logo"> {{ $t("Header.name") }} </a>
+      <NuxtLink to="/" class="nav_logo" @click="closeMenu">{{
+        $t("Header.name")
+      }}</NuxtLink>
 
       <!-- MENU -->
       <div :class="['nav_menu', { 'show-menu': menuOpen }]" id="nav-menu">
         <ul class="nav_list grid">
           <li class="nav_item">
-            <a href="#about" class="nav_link" @click="closeMenu">
-              <i class="uil uil-user nav_icon"></i> {{ $t("Header.aboutLink") }}
-            </a>
+            <NuxtLink to="/about" class="nav_link" @click="closeMenu">{{
+              $t("Header.aboutLink")
+            }}</NuxtLink>
           </li>
 
           <li class="nav_item">
-            <a href="#projects" class="nav_link" @click="closeMenu">
-              <i class="uil uil-bag nav_icon"></i>
-              {{ $t("Header.projectsLink") }}
-            </a>
+            <NuxtLink to="/projects" class="nav_link" @click="closeMenu">{{
+              $t("Header.projectsLink")
+            }}</NuxtLink>
           </li>
 
           <li class="nav_item">
-            <a href="#contact" class="nav_link" @click="closeMenu">
-              <i class="uil uil-message nav_icon"></i>
-              {{ $t("Header.contactLink") }}
-            </a>
+            <NuxtLink to="/contact" class="nav_link" @click="closeMenu">{{
+              $t("Header.contactLink")
+            }}</NuxtLink>
           </li>
         </ul>
 
@@ -51,25 +51,25 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from 'vue'
-import { useTheme } from '~/composables/useTheme'
+import { ref, onMounted } from "vue";
+import { useTheme } from "~/composables/useTheme";
 
-const { icon, toggleTheme, initTheme } = useTheme()
+const { icon, toggleTheme, initTheme } = useTheme();
 
 onMounted(() => {
-  initTheme()
-})
+  initTheme();
+});
 
 /* MENU STATE */
-const menuOpen = ref(false)
+const menuOpen = ref(false);
 
 /* OPEN MENU */
 const openMenu = () => {
-  menuOpen.value = true
-}
+  menuOpen.value = true;
+};
 
 /* CLOSE MENU */
 const closeMenu = () => {
-  menuOpen.value = false
-}
+  menuOpen.value = false;
+};
 </script>

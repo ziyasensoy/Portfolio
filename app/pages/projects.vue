@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <Hero />
+    <Projects />
     <Footer />
   </div>
 </template>
