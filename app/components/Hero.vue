@@ -69,7 +69,7 @@
             <span class="social_divider">|</span>
 
             <NuxtLink to="/about" class="home_social-icon"
-              >{{ $t("Meer over mij") }} <i class="uil uil-arrow-right"></i>
+              >{{ $t("Hero.more") }} <i class="uil uil-arrow-right"></i>
             </NuxtLink>
           </div>
         </div>
