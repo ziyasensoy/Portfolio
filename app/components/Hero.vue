@@ -2,81 +2,75 @@
   <section class="home section" id="home">
     <div class="home_container container grid">
       <div class="home_content grid">
-        <div class="home_social">
-          <a
-            href="https://github.com/ziyasensoy"
-            target="_blank"
-            class="home_social-icon"
-          >
-            <i class="uil uil-github-alt"></i>
-          </a>
-          <a
-            href="https://www.linkedin.com/in/ziyasensoy/"
-            target="_blank"
-            class="home_social-icon"
-          >
-            <i class="uil uil-linkedin-alt"></i>
-          </a>
-          <a
-            href="mailto:zcsensoy@gmail.com"
-            target="_blank"
-            class="home_social-icon"
-          >
-            <i class="uil uil-envelope"></i>
-          </a>
-        </div>
-
-        <div class="home_img">
-          <svg class="home_blob" viewBox="0 0 200 187">
-            <mask id="mask0" mask-type="alpha">
-              <path
-                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 165.547 
-                  130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 129.362C2.45775 
-                  97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 -0.149132 97.9666 
-                  0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-              />
-            </mask>
-            <g mask="url(#mask0)">
-              <path
-                d="M190.312 36.4879C206.582 62.1187 201.309 102.826 182.328 134.186C163.346 
-                  165.547 130.807 187.559 100.226 186.353C69.6454 185.297 41.0228 161.023 21.7403 
-                  129.362C2.45775 97.8511 -7.48481 59.1033 6.67581 34.5279C20.9871 10.1032 59.7028 
-                  -0.149132 97.9666 0.00163737C136.23 0.303176 174.193 10.857 190.312 36.4879Z"
-              />
-              <image
-                class="home_blob-img"
-                x="15"
-                y="-40"
-                href="/photo2-nobackground.jpg"
-                alt="photo2-nobackground"
-              />
-            </g>
-          </svg>
-        </div>
-
         <div class="home_data">
-          <h1 class="home_title" data-key="home_title">
-            {{ $t("Hero.homeTitle") }}
-          </h1>
-          <h3 class="home_subtitle">{{ $t("Hero.homeSubtitle") }}</h3>
-          <p class="home_description">{{ $t("Hero.homeDescription") }}</p>
-          <div class="hero_tags">
-            <div class="hero_tag">
-              <img src="/logos/vue_logo.svg" alt="Vue logo" />
-              <span>{{ $t("Hero.Tags.vue") }}</span>
-            </div>
-            <div class="hero_tag">
-              <img src="/logos/ts_logo.svg" alt="TypeScript logo" />
-              <span>{{ $t("Hero.Tags.ts") }}</span>
-            </div>
-            <div class="hero_tag">
-              <img src="/logos/js_logo.svg" alt="JavaScript logo" />
-              <span>{{ $t("Hero.Tags.js") }}</span>
-            </div>
-            <div class="hero_tag">
-              <img src="/logos/Tailwind_CSS_Logo.svg" alt="Tailwind CSS logo" />
-              <span>{{ $t("Hero.Tags.tailwind") }}</span>
-            </div>
+          <div class="home_title-wrapper">
+            <h1 class="home_title" data-key="home_title">
+              {{ $t("Hero.homeTitle") }}
+            </h1>
+
+            <span class="home_title-name">
+              {{ $t("General.firstName") }}
+            </span>
+          </div>
+          <div class="home_description">
+            <i18n-t keypath="Hero.homeDescription">
+              <template #hva>
+                <a
+                  class="home_description-links"
+                  href="https://www.hva.nl"
+                  target="_blank"
+                >
+                  {{ $t("General.hva") }}
+                </a>
+              </template>
+
+              <template #altura>
+                <a
+                  class="home_description-links"
+                  href="https://altura.io"
+                  target="_blank"
+                >
+                  {{ $t("General.altura") }}
+                </a>
+              </template>
+            </i18n-t>
+          </div>
+          <div class="home_socials">
+            <a
+              href="https://www.linkedin.com/in/ziyasensoy/"
+              target="_blank"
+              class="home_social-icon"
+            >
+              <i class="uil uil-linkedin-alt"></i>
+              {{ $t("General.Socials.linkedin") }}
+            </a>
+
+            <span class="social_divider">|</span>
+
+            <a
+              href="https://github.com/ziyasensoy"
+              target="_blank"
+              class="home_social-icon"
+            >
+              <i class="uil uil-github-alt"></i>
+              {{ $t("General.Socials.github") }}
+            </a>
+
+            <span class="social_divider">|</span>
+
+            <a
+              href="mailto:zcsensoy@gmail.com"
+              target="_blank"
+              class="home_social-icon"
+            >
+              <i class="uil uil-envelope"></i>
+            </a>
+
+            <span class="social_divider">|</span>
+
+            <NuxtLink to="/about" class="home_social-icon"
+              >{{ $t("Meer over mij") }} <i class="uil uil-arrow-right"></i>
+            </NuxtLink>
           </div>
         </div>
       </div>
