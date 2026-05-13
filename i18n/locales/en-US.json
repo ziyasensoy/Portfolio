@@ -17,7 +17,8 @@
   "Hero": {
     "homeTitle": "Hey! I'm",
     "homeSubtitle": "Software Engineering Student",
-    "homeDescription": "I'm a 3rd year Software Engineering student at {hva}. Previously worked as a Frontend Engineer at SaaS startup {altura}, where I helped improve the workflow of bid managers and improved the usability of key parts of the platform, including through my internship research into error handling in the application. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. I'm currently doing my minor in Visual Interface Design, where I focus on interaction design, visual design and usability."
+    "homeDescription": "I'm a 3rd year Software Engineering student at {hva}. Previously worked as a Frontend Engineer at SaaS startup {altura}, where I helped improve the workflow of bid managers and improved the usability of key parts of the platform, including through my internship research into error handling in the application. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. I'm currently doing my minor in Visual Interface Design, where I focus on interaction design, visual design and usability.",
+    "more": "More about me"
   },
   "About": {
     "title": "About me",

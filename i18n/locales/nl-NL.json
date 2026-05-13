@@ -17,7 +17,8 @@
   "Hero": {
     "homeTitle": "Hey! ik ben",
     "homeSubtitle": "Software Engineering Student",
-    "homeDescription": "Ik ben een 3e-jaars Software Engineering student aan de {hva}. Ik heb gewerkt als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer."
+    "homeDescription": "Ik ben een 3e-jaars Software Engineering student aan de {hva}. Ik heb gewerkt als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer.",
+    "more": "Meer over mij"
   },
   "About": {
     "title": "Over mij",
