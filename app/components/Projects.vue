@@ -1,125 +1,101 @@
 <template>
   <section class="projects section" id="projects">
-    <h2 class="section_title">{{ $t("Projects.title") }}</h2>
-    <span class="section_subtitle">{{ $t("Projects.subtitle") }}</span>
 
-    <div class="projects_container container grid">
+    <div class="featured_projects container">
+      <h2 class="section_title">{{ $t("Projects.title") }}</h2><br>
       <div
-        v-for="project in visibleProjects"
+        v-for="project in featuredProjects"
         :key="project.name"
-        class="project"
-        @mouseenter="setHover(project)"
-        @mouseleave="setHover(null)"
+        class="project_card"
       >
-        <div class="project_left">
-          <div class="project_name">{{ project.name }}</div>
-          <div class="project_year">{{ project.year }}</div>
+        <div class="project_image_wrapper">
+          <img :src="project.image" :alt="project.name" />
         </div>
 
-        <div class="project_right">
-          <div class="project_type">{{ project.type }}</div>
-          <div class="project_stack">{{ project.stack }}</div>
+        <div class="project_content">
+          <h3 class="project_title">{{ project.name }}</h3>
+          <p class="project_description">{{ project.description }}</p>
+
+          <p class="project_stack">          <i class="uil uil-tag-alt"></i>
+            {{ project.stack }}</p>
         </div>
       </div>
-    </div>
-    <div
-      v-if="hoveredProject"
-      class="project_tooltip"
-      :style="{
-        backgroundColor: hoveredProject.color,
-        left: tooltip.x + 'px',
-        top: tooltip.y + 'px'
-      }"
-    >
-      {{ hoveredProject.description }}
     </div>
   </section>
 </template>
 
 <script setup lang="ts">
-import { computed, ref, onMounted, onUnmounted } from "vue";
-
-export type Project = {
+type Project = {
   name: string;
-  year: string;
-  type: string;
-  stack: string;
   description: string;
-  color: string;
+  stack: string;
+  image: string;
 };
 
-const projects: Project[] = [
+const featuredProjects: Project[] = [
   {
     name: "Typografie",
-    year: "2026",
-    type: "Minor Visual Interface Design",
+    description: "Type specimen voor lettertype 'Neude'",
     stack: "HTML, CSS, JavaScript",
-    description: "Onderzoek naar lettertype 'Neude' ",
-    color: "#4f46e5",
+    image: "/typo.png",
   },
   {
     name: "Kleur en Compositie",
-    year: "2026",
-    type: "Minor Visual Interface Design",
-    stack: "Figma",
     description: "High-fidelity designs voor luxe koffiemerk",
-    color: "#06b6d4",
-  },
-  {
-    name: "Beeld(Taal)",
-    year: "2026",
-    type: "Minor Visual Interface Design",
-    stack: "-",
-    description: "Semiotiek, retorica & gestalt",
-    color: "#f97316",
-  },
-  {
-    name: "Interface & Beweging",
-    year: "2026",
-    type: "Minor Visual Interface Design",
-    stack: "Rive",
-    description: "Animatie",
-    color: "#22c55e",
-  },
-  {
-    name: "React Lab",
-    year: "2025",
-    type: "Prive",
-    stack: "React",
-    description: "-",
-    color: "#ef4444",
+    stack: "Figma",
+    image: "/kleur_compositie.png",
   },
 ];
-
-const showAll = ref(false);
-const visibleProjects = computed(() =>
-  showAll.value ? projects : projects.slice(0, 4)
-);
-
-function toggleShowMore() {
-  showAll.value = !showAll.value;
-}
-
-const hoveredProject = ref<Project | null>(null);
-
-function setHover(project: Project | null) {
-  hoveredProject.value = project;
-}
-
-const tooltip = ref({ x: 0, y: 0 });
-
-function moveCursor(e: MouseEvent) {
-  tooltip.value = {
-    x: e.clientX,
-    y: e.clientY,
-  };
-}
-
-onMounted(() => {
-  window.addEventListener("mousemove", moveCursor);
-});
-
-onUnmounted(() => {
-  window.removeEventListener("mousemove", moveCursor);
-});
 </script>
+
+<style lang="css">
+.featured_projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1.3rem;
+}
+
+.project_card {
+  border-radius: 0.5rem;
+  overflow: hidden;
+  background: var(--container-color);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.08);
+  transition: transform 0.2s ease;
+}
+
+.project_card:hover {
+  transform: translateY(-5px);
+}
+
+.project_image_wrapper {
+  padding: 2rem;
+  background: var(--first-color-alt);
+}
+
+.project_image_wrapper img {
+  width: 100%;
+  height: 180px;
+  object-fit: cover;
+  border-radius: 0.5rem;
+}
+
+.project_content {
+  padding: 1rem;
+}
+
+.project_title {
+  font-size: var(--medium-font-size);
+  margin-bottom: 0.5rem;
+}
+
+.project_description {
+  font-size: var(--smaller-font-size);
+  margin-bottom: 0.5rem;
+  color: var(--text-color);
+}
+
+.project_stack {
+  font-size: var(--smaller-font-size);
+  opacity: 0.8;
+}
+</style>
