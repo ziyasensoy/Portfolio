@@ -6,7 +6,7 @@
         <i class="uil uil-apps"></i>
       </div>
       <NuxtLink to="/" class="nav_logo" @click="closeMenu">{{
-        $t("Header.name")
+        $t("General.fullName")
       }}</NuxtLink>
 
       <!-- MENU -->

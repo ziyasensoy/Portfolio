@@ -1,27 +1,28 @@
 {
+  "General": {
+    "fullName": "Ziya Şensoy",
+    "firstName": "Ziya",
+    "hva": "Hogeschool van Amsterdam",
+    "altura": "Altura",
+    "Socials": {
+      "linkedin": "LinkedIn",
+      "github": "GitHub"
+    }
+  },
   "Header": {
-    "name": "Ziya Şensoy",
     "aboutLink": "Over mij",
     "projectsLink": "Projecten",
     "contactLink": "Contact"
   },
   "Hero": {
-    "homeTitle": "Hallo, ik ben Ziya",
+    "homeTitle": "Hey! ik ben",
     "homeSubtitle": "Software Engineering Student",
-    "homeDescription": "Ik bouw moderne webapplicaties met een focus op een strakke UI en gebruiksvriendelijkheid. Ik vind het leuk om ideeën om te zetten in functionele, gebruiksvriendelijke digitale producten.",
-    "Tags": {
-      "vue": "Vue.js",
-      "ts": "TypeScript",
-      "js": "JavaScript",
-      "tailwind": "Tailwind CSS"
-    },
-    "homeScroll": "Scroll naar beneden"
+    "homeDescription": "Ik ben een 3e-jaars Software Engineering student aan de {hva}. Ik heb gewerkt als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer."
   },
   "About": {
     "title": "Over mij",
     "subtitle": "Mijn introductie",
     "description": "Ik ben een Software Engineering Student aan de {hva} binnen de opleiding HBO-ICT. Tijdens mijn stage bij {altura} heb ik gewerkt als Frontend Developer. Daar hield ik me bezig met het ontwikkelen van nieuwe functionaliteiten, het oplossen van bugs en het verbeteren van de gebruikerservaring. Tijdens mijn stageonderzoek heb ik onderzocht hoe de error handling in de frontend van de applicatie verbeterd kan worden, met een focus op usability en duidelijke feedback voor gebruikers. Ik werk graag aan gebruiksvriendelijke interfaces en vind het leuk om techniek en UI/UX met elkaar te combineren.",
-    "hva": "Hogeschool van Amsterdam",
     "downloadCv": "Download CV"
   },
   "Projects": {

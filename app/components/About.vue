@@ -16,7 +16,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                {{ $t("About.hva") }}
+                {{ $t("General.hva") }}
               </a>
             </template>
 
@@ -27,7 +27,7 @@
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Altura
+                {{$t("General.altura")}}
               </a>
             </template>
           </i18n-t>
