@@ -48,14 +48,8 @@
     }
   },
   "Footer": {
-    "title": "Ziya Şensoy",
-    "subtitle": "Software Engineering Student",
-    "explore": "Verken",
-    "socials": "Sociale media",
-    "aboutLink": "Over mij",
-    "projectsLink": "Projecten",
-    "contactLink": "Contact",
-    "copyright": "© {year} Ziya Şensoy. Alle rechten voorbehouden.",
-    "builtWith": "Deze website is gebouwd met:"
+    "copyright": "© {year} Ziya Şensoy",
+    "builtWith": "Gebouwd met:",
+    "localTime": "lokale tijd"
   }
 }

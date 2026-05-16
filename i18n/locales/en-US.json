@@ -48,13 +48,8 @@
     }
   },
   "Footer": {
-    "subtitle": "Software Engineering Student",
-    "explore": "Explore",
-    "socials": "Socials",
-    "aboutLink": "About",
-    "projectsLink": "Projects",
-    "contactLink": "Contact",
-    "copyright": "© {year} Ziya Şensoy. All rights reserved.",
-    "builtWith": "This website is built with:"
+    "copyright": "© {year} Ziya Şensoy",
+    "builtWith": "Built with:",
+    "localTime": "local time"
   }
 }
