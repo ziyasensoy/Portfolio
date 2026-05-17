@@ -37,6 +37,18 @@
           </div>
           <div class="home_socials">
             <a
+              href="/resume.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="home_resume-download"
+            >
+              {{ $t("General.resume") }}
+              <i class="uil uil-file-download"></i>
+            </a>
+
+            <span class="social_divider">|</span>
+
+            <a
               href="https://www.linkedin.com/in/ziyasensoy/"
               target="_blank"
               class="home_social-icon"

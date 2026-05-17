@@ -7,7 +7,8 @@
     "Socials": {
       "linkedin": "LinkedIn",
       "github": "GitHub"
-    }
+    },
+    "resume": "Resume"
   },
   "Header": {
     "aboutLink": "About",
@@ -17,14 +18,13 @@
   "Hero": {
     "homeTitle": "Hey! I'm",
     "homeSubtitle": "Software Engineering Student",
-    "homeDescription": "I'm a 3rd year Software Engineering student at {hva}. Previously worked as a Frontend Engineer at SaaS startup {altura}, where I helped improve the workflow of bid managers and improved the usability of key parts of the platform, including through my internship research into error handling in the application. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. I'm currently doing my minor in Visual Interface Design, where I focus on interaction design, visual design and usability.",
+    "homeDescription": "A 22 year old Full-Stack Developer based in Amsterdam, the Netherlands. Student {'@'} {hva}. Currently focused on growing as a all-round developer, building projects that combine my knowledge of UX and Frontend Development.",
     "more": "More about me"
   },
   "About": {
     "title": "About me",
     "subtitle": "My introduction",
-    "description": "I am a Software Engineering Student at the {hva} in the HBO-ICT program. During my internship at {altura}, I worked as a Frontend Developer. There, I was involved in developing new features, fixing bugs, and improving the user experience. During my internship research, I investigated how error handling in the frontend of the application could be improved, with a focus on usability and clear feedback for users. I enjoy creating user-friendly interfaces and combining technology with UI/UX.",
-    "downloadCv": "Download Resume"
+    "description": "I'm a 3rd year Software Engineering student at {hva}. Previously worked as a Frontend Engineer at SaaS startup {altura}, where I helped improve the workflow of bid managers and improved the usability of key parts of the platform, including through my internship research into error handling in the application. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. I'm currently doing my minor in Visual Interface Design, where I focus on interaction design, visual design and usability."
   },
   "Projects": {
     "title": "Featured projects",
