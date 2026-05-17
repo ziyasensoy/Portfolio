@@ -61,7 +61,41 @@
     "description": "I'm a 3rd year Software Engineering student at {hva}. Previously worked as a Frontend Engineer at SaaS startup {altura}, where I helped improve the workflow of bid managers and improved the usability of key parts of the platform, including through my internship research into error handling in the application. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. I'm currently doing my minor in Visual Interface Design, where I focus on interaction design, visual design and usability."
   },
   "Projects": {
-    "title": "Featured projects"
+    "title": "Projects",
+    "featured": "Featured projects",
+    "viewMore": "View more",
+
+    "items": {
+      "votevision": {
+        "name": "VoteVision",
+        "description": "A group project that visualizes the 2023 Dutch House of Representatives election results.",
+        "stack": "VueJS, Java, TypeScript, Tailwind, Figma"
+      },
+
+      "interfaceInteraction": {
+        "name": "Interface and interaction",
+        "description": "An interactive ninja animation where users can trigger different actions to control the ninja.",
+        "stack": "Rive, Minor Visual Interface Design"
+      },
+
+      "kleurCompositie": {
+        "name": "Color and Composition",
+        "description": "High-fidelity designs created for a luxury coffee brand.",
+        "stack": "Figma, Minor Visual Interface Design"
+      },
+
+      "typografie": {
+        "name": "Typography",
+        "description": "A type specimen website created for the typeface 'Neude'.",
+        "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design"
+      },
+
+      "beeldtaal": {
+        "name": "Visual language",
+        "description": "This project explored how meaning and emotion can be conveyed through design using principles such as semiotics, rhetoric, and Gestalt.",
+        "stack": "Canva, Minor Visual Interface Design"
+      }
+    }
   },
   "Contact": {
     "title": "Get in touch",

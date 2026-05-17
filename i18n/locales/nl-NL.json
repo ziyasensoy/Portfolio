@@ -61,7 +61,41 @@
     "description": "Ik ben een 3e-jaars Software Engineering student aan de {hva}. Ik heb gewerkt als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer."
   },
   "Projects": {
-    "title": "Uitgelichte projecten"
+    "title": "Projecten",
+    "featured": "Uitgelichte projecten",
+    "viewMore": "Bekijk meer",
+
+    "items": {
+      "votevision": {
+        "name": "VoteVision",
+        "description": "Een groepsproject waarin de verkiezingsuitslagen van de Tweede Kamerverkiezingen 2023 worden gevisualiseerd.",
+        "stack": "VueJS, Java, TypeScript, Tailwind, Figma"
+      },
+
+      "interfaceInteraction": {
+        "name": "Interface en interactie",
+        "description": "Een interactieve ninja-animatie waarin gebruikers verschillende acties kunnen uitvoeren om de ninja te besturen.",
+        "stack": "Rive, Minor Visual Interface Design"
+      },
+
+      "kleurCompositie": {
+        "name": "Kleur en Compositie",
+        "description": "High-fidelity ontwerpen voor een luxe koffiemerk.",
+        "stack": "Figma, Minor Visual Interface Design"
+      },
+
+      "typografie": {
+        "name": "Typografie",
+        "description": "Een type specimen website voor het lettertype 'Neude'.",
+        "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design"
+      },
+
+      "beeldtaal": {
+        "name": "Beeldtaal",
+        "description": "Dit project onderzocht hoe betekenis en emotie kunnen worden overgebracht in ontwerp met behulp van semiotiek, retorica en Gestaltprincipes.",
+        "stack": "Canva, Minor Visual Interface Design"
+      }
+    }
   },
   "Contact": {
     "title": "Neem contact op",
