@@ -17,28 +17,54 @@
   },
   "Hero": {
     "homeTitle": "Hey! ik ben",
-    "homeSubtitle": "Software Engineering Student",
-    "homeDescription": "Een 22-jarige Full-Stack Developer gevestigd in Amsterdam, Nederland. Student {'@'} {hva}. Momenteel gefocust op mijn ontwikkeling als all-round developer, waarbij ik projecten bouw die mijn kennis van UX en frontend development combineren.",   
+    "homeDescription": "Een 22-jarige Full-Stack Developer gevestigd in Amsterdam, Nederland. Student {'@'} {hva}. Momenteel gefocust op mijn ontwikkeling als all-round developer, waarbij ik projecten bouw die mijn kennis van UX en frontend development combineren.",
     "more": "Meer over mij"
+  },
+  "Technologies": {
+    "title": "Mijn technologieën",
+
+    "vue": {
+      "name": "Vue",
+      "description": "JavaScript-framework"
+    },
+    "nuxt": {
+      "name": "Nuxt",
+      "description": "Full-stack Vue-framework"
+    },
+    "typescript": {
+      "name": "TypeScript",
+      "description": "Superset van JavaScript"
+    },
+    "javascript": {
+      "name": "JavaScript",
+      "description": "Programmeertaal voor het web"
+    },
+    "java": {
+      "name": "Java",
+      "description": "Objectgeoriënteerde programmeertaal"
+    },
+    "tailwind": {
+      "name": "Tailwind",
+      "description": "CSS-framework"
+    },
+    "figma": {
+      "name": "Figma",
+      "description": "Ontwerptool"
+    },
+    "git": {
+      "name": "Git",
+      "description": "Versiebeheer"
+    }
   },
   "About": {
     "title": "Over mij",
-    "subtitle": "Mijn introductie",
     "description": "Ik ben een 3e-jaars Software Engineering student aan de {hva}. Ik heb gewerkt als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer."
   },
   "Projects": {
-    "title": "Uitgelichte projecten",
-    "subtitle": "Mijn werk"
+    "title": "Uitgelichte projecten"
   },
   "Contact": {
     "title": "Neem contact op",
-    "subtitle": "Laten we connecten!",
-    "phoneTitle": "Telefoon",
-    "phone": "+31 6 18944143",
-    "emailTitle": "E-mail",
-    "email": "zcsensoy{'@'}gmail.com",
-    "locationTitle": "Locatie",
-    "location": "Amsterdam, Nederland",
     "Form": {
       "name": "Naam",
       "email": "E-mail",

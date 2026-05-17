@@ -8,6 +8,7 @@ useHead({
   <div>
     <Header />
     <Hero />
+    <Technologies />
     <FeaturedProjects />
     <Footer />
   </div>
