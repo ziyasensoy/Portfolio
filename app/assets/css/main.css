@@ -879,14 +879,6 @@ img {
     column-gap: 2rem;
   }
 
-  .home_scroll {
-    display: block;
-  }
-
-  .home_scroll-button {
-    margin-left: 3rem;
-  }
-
   .featured_projects {
     grid-template-columns: repeat(2, 1fr);
   }
