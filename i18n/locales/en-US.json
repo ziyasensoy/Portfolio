@@ -77,6 +77,12 @@
         "stack": "VueJS, Java, TypeScript, Tailwind, Figma"
       },
 
+      "meesterproef": {
+        "name": "Capstone project VID minor",
+        "description": "An educational website about the North Sea that combines the knowledge, creativity, and design skills developed throughout my minor into a interactive user experience.",
+        "stack": "React, Nuxt, TypeScript, CSS"
+      },
+
       "interfaceInteraction": {
         "name": "Interface and interaction",
         "description": "An interactive ninja animation where users can trigger different actions to control the ninja.",

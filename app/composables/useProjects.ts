@@ -10,6 +10,10 @@ export const useProjects = () => {
       image: "/projects/votevision_mockup.png",
     },
     {
+      key: "meesterproef",
+      image: "/projects/",
+    },
+    {
       key: "interfaceInteraction",
       image: "/projects/interfaceinteractie_mockup.png",
     },

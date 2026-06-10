@@ -77,6 +77,12 @@
         "stack": "VueJS, Java, TypeScript, Tailwind, Figma"
       },
 
+      "meesterproef": {
+        "name": "Meesterproef VID minor",
+        "description": "Een educatieve website over de Noordzee waarin ik de kennis, creativiteit en ontwerpvaardigheden die ik tijdens mijn minor heb opgedaan heb samengebracht in een interactieve gebruikerservaring.",
+        "stack": "React, Nuxt, TypeScript, CSS"
+      },
+
       "interfaceInteraction": {
         "name": "Interface en interactie",
         "description": "Een interactieve ninja-animatie waarin gebruikers verschillende acties kunnen uitvoeren om de ninja te besturen.",
