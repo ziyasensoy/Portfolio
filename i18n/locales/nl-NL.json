@@ -74,37 +74,43 @@
       "votevision": {
         "name": "VoteVision",
         "description": "Een groepsproject waarin de verkiezingsuitslagen van de Tweede Kamerverkiezingen 2023 worden gevisualiseerd.",
-        "stack": "VueJS, Java, TypeScript, Tailwind, Figma"
+        "stack": "VueJS, Java, TypeScript, Tailwind, Figma",
+        "date": "Sep 2024 - Jan 2025"
       },
 
       "meesterproef": {
         "name": "Meesterproef VID minor",
         "description": "Een educatieve website over de Noordzee waarin ik de kennis, creativiteit en ontwerpvaardigheden die ik tijdens mijn minor heb opgedaan heb samengebracht in een interactieve gebruikerservaring.",
-        "stack": "React, Nuxt, TypeScript, CSS"
+        "stack": "React, Nuxt, TypeScript, CSS",
+        "date": "Mei 2026 - Jun 2026"
       },
 
       "interfaceInteraction": {
         "name": "Interface en interactie",
         "description": "Een interactieve ninja-animatie waarin gebruikers verschillende acties kunnen uitvoeren om de ninja te besturen.",
-        "stack": "Rive, Minor Visual Interface Design"
+        "stack": "Rive, Minor Visual Interface Design",
+        "date": "Apr 2026"
       },
 
       "kleurCompositie": {
         "name": "Kleur en Compositie",
         "description": "High-fidelity ontwerpen voor een luxe koffiemerk.",
-        "stack": "Figma, Minor Visual Interface Design"
+        "stack": "Figma, Minor Visual Interface Design",
+        "date": "Feb 2026 - Mrt 2026"
       },
 
       "typografie": {
         "name": "Typografie",
         "description": "Een type specimen website voor het lettertype 'Neude'.",
-        "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design"
+        "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design",
+        "date": "Feb 2026 - Mrt 2026"
       },
 
       "beeldtaal": {
         "name": "Beeldtaal",
         "description": "Dit project onderzocht hoe betekenis en emotie kunnen worden overgebracht in ontwerp met behulp van semiotiek, retorica en Gestaltprincipes.",
-        "stack": "Canva, Minor Visual Interface Design"
+        "stack": "Canva, Minor Visual Interface Design",
+        "date": "Mrt 2026"
       }
     }
   },

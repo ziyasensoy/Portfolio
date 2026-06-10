@@ -1,5 +1,8 @@
 <template>
-  <div class="project_card">
+  <NuxtLink
+    :to="`/projects/${project.key}`"
+    class="project_card"
+  >
     <div class="project_image_wrapper">
       <img
         :src="project.image"
@@ -29,7 +32,7 @@
         </span>
       </p>
     </div>
-  </div>
+  </NuxtLink>
 </template>
 
 <script setup lang="ts">

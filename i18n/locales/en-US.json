@@ -74,37 +74,43 @@
       "votevision": {
         "name": "VoteVision",
         "description": "A group project that visualizes the 2023 Dutch House of Representatives election results.",
-        "stack": "VueJS, Java, TypeScript, Tailwind, Figma"
+        "stack": "VueJS, Java, TypeScript, Tailwind, Figma",
+        "date": "Sep 2024 - Jan 2025"
       },
 
       "meesterproef": {
         "name": "Capstone project VID minor",
         "description": "An educational website about the North Sea that combines the knowledge, creativity, and design skills developed throughout my minor into a interactive user experience.",
-        "stack": "React, Nuxt, TypeScript, CSS"
+        "stack": "React, Nuxt, TypeScript, CSS",
+        "date": "May 2026 - Jun 2026"
       },
 
       "interfaceInteraction": {
         "name": "Interface and interaction",
         "description": "An interactive ninja animation where users can trigger different actions to control the ninja.",
-        "stack": "Rive, Minor Visual Interface Design"
+        "stack": "Rive, Minor Visual Interface Design",
+        "date": "Apr 2026"
       },
 
       "kleurCompositie": {
         "name": "Color and Composition",
         "description": "High-fidelity designs created for a luxury coffee brand.",
-        "stack": "Figma, Minor Visual Interface Design"
+        "stack": "Figma, Minor Visual Interface Design",
+        "date": "Feb 2026 - Mar 2026"
       },
 
       "typografie": {
         "name": "Typography",
         "description": "A type specimen website created for the typeface 'Neude'.",
-        "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design"
+        "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design",
+        "date": "Feb 2026 - Mar 2026"
       },
 
       "beeldtaal": {
         "name": "Visual language",
         "description": "This project explored how meaning and emotion can be conveyed through design using principles such as semiotics, rhetoric, and Gestalt.",
-        "stack": "Canva, Minor Visual Interface Design"
+        "stack": "Canva, Minor Visual Interface Design",
+        "date": "Mar 2026"
       }
     }
   },

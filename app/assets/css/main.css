@@ -550,7 +550,7 @@ img {
   border-radius: 0.5rem;
   overflow: hidden;
   border: 1px solid color-mix(in srgb, var(--text-color-light) 20%, transparent);
-  background: var(--body-bg-accent);
+  background: var(--body-bg);
   box-shadow: 0 5px 10px var(--body-bg-accent);
   transition:
     transform 0.2s ease,
@@ -592,6 +592,7 @@ img {
   padding: 0.2rem 0.5rem;
   border: 1px solid rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  color: var(--text-color);
   background: var(--body-bg-accent);
   font-size: 0.75rem;
 }
@@ -628,9 +629,64 @@ img {
   gap: 1.5rem;
 }
 
+/*==================== PROJECT DETAIL ====================*/
+.project-detail {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
+.project_details_image_wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+
+.project-image {
+  width: 100%;
+  max-width: 650px;
+  border-radius: 1rem;
+  object-fit: cover;
+}
+
+.project-title {
+  margin-bottom: 1rem;
+  color: var(--first-color);
+}
+
+.project-meta {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.project-date {
+  color: var(--text-color-light);
+}
+
+.project-meta a {
+  font-size: 1.25rem;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+.project-divider {
+  max-width: 650px;
+  margin: 3rem auto 3rem;
+  color: var(--text-color-light);
+}
+
+.project-overview {
+  max-width: 650px;
+  margin: 0 auto;
+}
+
 /*==================== CONTACT ====================*/
-
-
 .contact_container {
   display: flex;
   flex-direction: column;
