@@ -40,6 +40,9 @@
       </div>
 
       <div class="nav_btns">
+        <!-- HUE CHANGE BUTTON -->
+        <HuePicker />
+        
         <!-- THEME CHANGE BUTTON -->
         <i :class="['change-theme', icon]" @click="toggleTheme"></i>
 

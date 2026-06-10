@@ -89,6 +89,7 @@ body.dark-theme {
 .nav_btns {
   display: flex;
   align-items: center;
+  gap: 1rem;
 }
 
 .change-theme {
@@ -277,7 +278,6 @@ img {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  margin-left: 1rem;
 }
 
 .lang_button {
@@ -293,6 +293,10 @@ img {
   object-fit: cover;
   border-radius: 6px;
   transition: transform 0.2s ease;
+}
+
+.change-theme:hover {
+  transform: scale(1.1);
 }
 
 .lang_button img:hover {
