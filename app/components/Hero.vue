@@ -35,12 +35,12 @@
               </template>
             </i18n-t>
           </div>
-          <div class="home_socials">
+          <div class="socials">
             <a
               href="/resume.pdf"
               target="_blank"
               rel="noopener noreferrer"
-              class="home_resume-download"
+              class="resume_download-button"
             >
               {{ $t("General.resume") }}
               <i class="uil uil-file-download"></i>
@@ -51,7 +51,7 @@
             <a
               href="https://www.linkedin.com/in/ziyasensoy/"
               target="_blank"
-              class="home_social-icon"
+              class="social_icon"
             >
               <i class="uil uil-linkedin-alt"></i>
               {{ $t("General.Socials.linkedin") }}
@@ -62,7 +62,7 @@
             <a
               href="https://github.com/ziyasensoy"
               target="_blank"
-              class="home_social-icon"
+              class="social_icon"
             >
               <i class="uil uil-github-alt"></i>
               {{ $t("General.Socials.github") }}
@@ -73,14 +73,14 @@
             <a
               href="mailto:zcsensoy@gmail.com"
               target="_blank"
-              class="home_social-icon"
+              class="social_icon"
             >
               <i class="uil uil-envelope"></i>
             </a>
 
             <span class="social_divider">|</span>
 
-            <NuxtLink to="/about" class="home_social-icon"
+            <NuxtLink to="/about" class="social_icon"
               >{{ $t("Hero.more") }} <i class="uil uil-arrow-right"></i>
             </NuxtLink>
           </div>
