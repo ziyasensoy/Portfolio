@@ -33,9 +33,7 @@ nuxtApp.hook("page:finish", async () => {
       v-if="loading"
       class="loading-overlay"
     >
-      <div class="spinner"> 
-        Loading...
-        </div>
+      <div class="spinner" />
     </div>
   </Transition>
 </template>
