@@ -58,7 +58,12 @@
   },
   "About": {
     "title": "Over mij",
-    "description": "Ik ben een 3e-jaars Software Engineering student aan de {hva}. Ik heb gewerkt als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer."
+    "Description": {
+      "line1": "Hey! Ik ben Ziya Sensoy, een 3e-jaars Software Engineering student aan de {hva}. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn.",
+      "line2": "Ik heb gewerkt en stage gelopen als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer.",
+      "line3": "Naast software houd ik ervan om tijd door te brengen in de natuur, te reizen en te sporten. Ik ben daarnaast geïnteresseerd in geschiedenis en filosofie. {email} als je wilt kennismaken of ergens over wilt sparren.",
+      "email": "Stuur me gerust een e-mail"
+    }
   },
   "Projects": {
     "title": "Projecten",

@@ -328,13 +328,14 @@ img {
   align-items: center;
 }
 
-.home_social-icon {
-  font-size: 1.25rem;
-  color: var(--first-color);
+.social_icon {
+  font-size: 1rem;
+  color: var(--text-color);
 }
 
-.home_social-icon:hover {
-  color: var(--first-color-alt);
+.social_icon:hover {
+  color: var(--first-color);
+  transition: 0.3s;
 }
 
 .home_title-wrapper {
@@ -373,7 +374,7 @@ img {
   color: var(--body-bg-accent);
 }
 
-.home_socials {
+.socials {
   display: flex;
   align-items: center;
   gap: 1rem;
@@ -384,26 +385,17 @@ img {
   color: var(--text-color-light);
 }
 
-.home_resume-download {
+.resume_download-button {
   border: 1px solid var(--text-color-light);
   padding: 10px;
   color: var(--text-color);
   border-radius: 5px;
 }
 
-.home_resume-download:hover {
-  background-color: var(--text-color);
+.resume_download-button:hover {
+  background-color: var(--first-color);
+  border: 1px solid var(--first-color);
   color: var(--body-bg);
-}
-
-.home_social-icon {
-  font-size: 1rem;
-  color: var(--text-color);
-  transition: 0.3s;
-}
-
-.home_social-icon:hover {
-  color: var(--first-color-alt);
 }
 
 .hero_tags {
@@ -498,15 +490,17 @@ img {
 /*====================== ABOUT ======================*/
 .about_container {
   display: flex;
+  flex-direction: column;
   align-items: stretch;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .about_img {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
+  margin: 0 auto;
   object-fit: cover;
   border-radius: 0.5rem;
-  flex-shrink: 0;
 }
 
 .about_data {
@@ -522,6 +516,23 @@ img {
   letter-spacing: 0.03rem;
   word-spacing: 0.2rem;
   margin-bottom: var(--mb-1-5);
+}
+
+.about_description p {
+  margin-bottom: 1rem;
+}
+
+.about_description p:last-child {
+  margin-bottom: 0;
+}
+
+.about_description-links {
+  border-bottom: 2px dashed var(--first-color);
+}
+
+.about_description-links:hover {
+  background-color: var(--first-color);
+  color: var(--body-bg-accent);
 }
 
 .about_buttons {
@@ -784,7 +795,7 @@ img {
     grid-template-columns: 1fr;
   }
 
-  .about_contentainer {
+  .about_container {
     flex-direction: column;
   }
 
@@ -888,12 +899,12 @@ img {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .about_img {
-    width: 350px;
+  .about_container {
+    flex-direction: row;
   }
 
-  .about_description {
-    text-align: initial;
+  .about_img {
+    width: 350px;
   }
 
   .about_info {

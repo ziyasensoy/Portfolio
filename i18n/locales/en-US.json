@@ -57,8 +57,13 @@
     }
   },
   "About": {
-    "title": "About me",
-    "description": "I'm a 3rd year Software Engineering student at {hva}. Previously worked as a Frontend Engineer at SaaS startup {altura}, where I helped improve the workflow of bid managers and improved the usability of key parts of the platform, including through my internship research into error handling in the application. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. I'm currently doing my minor in Visual Interface Design, where I focus on interaction design, visual design and usability."
+    "title": "About Me",
+    "Description": {
+      "line1": "Hey! I'm Ziya Sensoy, a third-year Software Engineering student at the {hva}. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing.",
+      "line2": "I worked and completed an internship as a Frontend Engineer at SaaS startup {altura}, where I improved the workflow of bid managers and enhanced the usability of key parts of the platform. This included conducting research on error handling within the application as part of my internship. I am currently completing the Visual Interface Design minor, where I study interaction design, visual design, and user-centered design.",
+      "line3": "Outside of software, I enjoy spending time in nature, traveling, and staying active through sports. I am also interested in history and philosophy. Feel free to {email} if you'd like to connect or chat.",
+      "email": "Shoot me an email"
+    }
   },
   "Projects": {
     "title": "Projects",
