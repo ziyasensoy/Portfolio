@@ -32,6 +32,5 @@ export default defineNuxtConfig({
         file: "en-US.json"
        },
     ],
-    defaultLocale: "en-US",
   },
 });
