@@ -1,7 +1,10 @@
 <template>
-  <section class="contact section" id="contact">
-    <div class="contact_container container grid">
-      <h2 class="section_title">{{ $t("Contact.title") }}</h2>
+  <section class="contact section">
+    <div class="container">
+      <h2 class="section_title">
+        <i class="uil uil-message contact_icon"></i>
+        {{ $t("Contact.title") }}
+      </h2>
 
       <form
         action="https://formsubmit.co/zcsensoy@gmail.com"
