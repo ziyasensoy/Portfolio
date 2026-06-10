@@ -123,6 +123,13 @@ body {
   color: var(--text-color);
 }
 
+html::selection,
+body::selection,
+*::selection {
+  background-color: var(--first-color-alt);
+  color: white;
+}
+
 h1,
 h2,
 h3,
