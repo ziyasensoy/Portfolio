@@ -8,6 +8,10 @@ nuxtApp.hook("page:start", () => {
 });
 
 nuxtApp.hook("page:finish", async () => {
+  if (import.meta.server) {
+    return;
+  }
+
   await nextTick();
 
   const images = Array.from(document.images);
