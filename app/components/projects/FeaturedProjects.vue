@@ -15,7 +15,6 @@
       <div class="featured_projects">
         <ProjectsProjectCard
           v-for="project in featuredProjects"
-          :key="project.name"
           :project="project"
         />
       </div>

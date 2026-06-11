@@ -52,7 +52,7 @@ const projectComponent = computed(() => {
         <div class="project_details_image_wrapper">
           <img
             v-if="project"
-            :src="project.image"
+            :src="project.thumbnail"
             :alt="$t(`Projects.items.${projectKey}.name`)"
             class="project-image"
           />

@@ -5,7 +5,7 @@
   >
     <div class="project_image_wrapper">
       <img
-        :src="project.image"
+        :src="project.thumbnail"
         :alt="$t(`Projects.items.${project.key}.name`)"
       />
     </div>
