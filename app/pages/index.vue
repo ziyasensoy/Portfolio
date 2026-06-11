@@ -9,7 +9,7 @@ useHead({
     <Header />
     <Hero />
     <Technologies />
-    <FeaturedProjects />
+    <ProjectsFeaturedProjects />
     <Footer />
   </div>
 </template>

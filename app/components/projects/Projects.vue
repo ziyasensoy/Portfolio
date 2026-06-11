@@ -7,9 +7,9 @@
       </h2>
 
       <div class="projects_grid">
-        <ProjectCard
+        <ProjectsProjectCard
           v-for="project in projects"
-          :key="project.name"
+          :key="project.key"
           :project="project"
         />
       </div>
@@ -18,7 +18,7 @@
 </template>
 
 <script setup lang="ts">
-import ProjectCard from "~/components/ProjectCard.vue";
+import ProjectCard from "~/components/projects/ProjectCard.vue";
 import { useProjects } from "~/composables/useProjects";
 
 const { projects } = useProjects();

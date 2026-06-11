@@ -13,7 +13,7 @@
       </div>
 
       <div class="featured_projects">
-        <ProjectCard
+        <ProjectsProjectCard
           v-for="project in featuredProjects"
           :key="project.name"
           :project="project"
@@ -25,7 +25,7 @@
 
 <script setup lang="ts">
 import { computed } from "vue";
-import ProjectCard from "~/components/ProjectCard.vue";
+import ProjectCard from "~/components/projects/ProjectCard.vue";
 import { useProjects } from "~/composables/useProjects";
 
 const { projects } = useProjects();

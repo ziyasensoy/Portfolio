@@ -2,12 +2,16 @@
 const route = useRoute();
 
 const projectKey = route.params.key as string;
+
+useHead({
+  title: `${$t(`Projects.items.${projectKey}.name`)} | Ziya Sensoy`,
+});
 </script>
 
 <template>
   <div>
     <Header />
-    <ProjectDetail :project-key="projectKey" />
+    <ProjectsProjectDetail :project-key="projectKey" />
     <Footer />
   </div>
 </template>
