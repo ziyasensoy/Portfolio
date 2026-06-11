@@ -75,7 +75,17 @@
         "name": "VoteVision",
         "description": "Een groepsproject waarin de verkiezingsuitslagen van de Tweede Kamerverkiezingen 2023 worden gevisualiseerd.",
         "stack": "VueJS, Java, TypeScript, Tailwind, Figma",
-        "date": "Sep 2024 - Jan 2025"
+        "date": "Sep 2024 - Jan 2025",
+        "content": {
+          "intro1": "VoteVision is een full-stack webapplicatie die voornamelijk is gebouwd met Vue.js en Java. Het project richt zich op de Tweede Kamerverkiezingen van 2023 en heeft als doel politiek toegankelijker te maken voor mensen die normaal gesproken weinig interesse hebben in politieke onderwerpen. Door verkiezingsdata, educatieve content en interactieve functies te combineren, moedigt VoteVision gebruikers aan om meer te leren over de Nederlandse politiek en motiveert het hen om deel te nemen aan toekomstige verkiezingen.",
+          "intro2": "De website bevat een politieke quiz, uitgebreide informatie over Nederlandse politieke partijen, uitleg over hoe het Nederlandse politieke systeem werkt, een pagina met verkiezingsuitslagen en een forum waar gebruikers met elkaar in gesprek kunnen gaan over politieke onderwerpen. Het doel is om politieke informatie op een toegankelijke en aantrekkelijke manier te presenteren voor een breed publiek.",
+          "contributionsTitle": "Mijn Bijdragen",
+          "contribution1": "Ik was verantwoordelijk voor de ontwikkeling van de landingspagina, de politieke quiz en de pagina met verkiezingsuitslagen. De landingspagina introduceert bezoekers aan het platform en het doel ervan, terwijl de quiz gebruikers op een leuke en interactieve manier helpt meer te leren over de Nederlandse politiek.",
+          "contribution2": "Voor de pagina met verkiezingsuitslagen werkte ik met officiële verkiezingsgegevens van de Tweede Kamerverkiezingen van 2023, afkomstig van kiesraad.nl. De resultaten werden geïmporteerd vanuit CSV-bestanden van de Kiesraad en verwerkt binnen de applicatie. De pagina presenteert verkiezingsstatistieken op een duidelijke en toegankelijke manier, zodat gebruikers de resultaten kunnen verkennen en een beter inzicht krijgen in de verkiezingsuitslag.",
+          "landingPage": "Landingspagina",
+          "resultsPage": "Verkiezingsuitslagenpagina",
+          "quizPage": "Quizpagina"
+        }
       },
 
       "meesterproef": {

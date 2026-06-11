@@ -75,7 +75,17 @@
         "name": "VoteVision",
         "description": "A group project that visualizes the 2023 Dutch House of Representatives election results.",
         "stack": "VueJS, Java, TypeScript, Tailwind, Figma",
-        "date": "Sep 2024 - Jan 2025"
+        "date": "Sep 2024 - Jan 2025",
+        "content": {
+          "intro1": "VoteVision is a full-stack web application built mainly with Vue.js and Java. The project focuses on the Dutch House of Representatives elections of 2023 and aims to make politics more accessible to people who are not normally interested in political topics. By combining election data, educational content, and interactive features, VoteVision encourages users to learn more about Dutch politics and motivates them to participate in future elections.",
+          "intro2": "The website includes a political quiz, detailed information about Dutch political parties, explanations of how the Dutch political system works, an election results page, and a community forum where users can discuss political topics. The goal is to present political information in an engaging and approachable way for a wider audience.",
+          "contributionsTitle": "My Contributions",
+          "contribution1": "I was responsible for developing the landing page, the political quiz, and the election results page. The landing page introduces visitors to the platform and its purpose, while the quiz provides an interactive way for users to learn more about Dutch politics in a fun and engaging way.",
+          "contribution2": "For the election results page, I worked with official election data from the 2023 Dutch House of Representatives elections, which were provided by kiesraad.nl. The results were imported from CSV files provided by Kiesraad and processed within the application. The page presents election statistics in a clear and accessible format, allowing users to explore the results and gain a better understanding of the election outcome.",
+          "landingPage": "Landing page",
+          "resultsPage": "Election results page",
+          "quizPage": "Quiz page"
+        }
       },
 
       "meesterproef": {
