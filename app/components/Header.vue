@@ -1,53 +1,70 @@
 <template>
   <header class="header" id="header">
     <nav class="nav container">
-      <!-- MENU OPEN BUTTON -->
-      <div class="nav_toggle" id="nav-toggle" @click="openMenu">
-        <i class="uil uil-apps"></i>
+      <NuxtLink to="/" class="nav_logo" @click="closeMenu">
+        {{ $t("General.fullName") }}
+      </NuxtLink>
+
+      <div class="nav_menu desktop_menu">
+        <ul class="nav_list">
+          <li class="nav_item">
+            <NuxtLink to="/about" class="nav_link">
+              {{ $t("Header.aboutLink") }}
+            </NuxtLink>
+          </li>
+
+          <li class="nav_item">
+            <NuxtLink to="/projects" class="nav_link">
+              {{ $t("Header.projectsLink") }}
+            </NuxtLink>
+          </li>
+
+          <li class="nav_item">
+            <NuxtLink to="/contact" class="nav_link">
+              {{ $t("Header.contactLink") }}
+            </NuxtLink>
+          </li>
+        </ul>
       </div>
-      <NuxtLink to="/" class="nav_logo" @click="closeMenu">{{
-        $t("General.fullName")
-      }}</NuxtLink>
 
-      <!-- MENU -->
-      <div :class="['nav_menu', { 'show-menu': menuOpen }]" id="nav-menu">
-        <ul class="nav_list grid">
+      <div class="nav_btns desktop-only">
+        <HuePicker />
+        <i :class="['change-theme', icon]" @click="toggleTheme"></i>
+        <LangSwitcher />
+      </div>
+
+      <div class="nav_toggle" @click="openMenu">
+        <i class="uil uil-bars"></i>
+      </div>
+
+      <div :class="['nav_menu mobile_menu', { 'show-menu': menuOpen }]">
+        <div class="mobile_menu_header">
+          <HuePicker />
+          <i :class="['change-theme', icon]" @click="toggleTheme"></i>
+          <LangSwitcher />
+        </div>
+
+        <ul class="mobile_nav_list">
           <li class="nav_item">
-            <NuxtLink to="/about" class="nav_link" @click="closeMenu">{{
-              $t("Header.aboutLink")
-            }}</NuxtLink>
+            <NuxtLink to="/about" class="nav_link" @click="closeMenu">
+              {{ $t("Header.aboutLink") }}
+            </NuxtLink>
           </li>
 
           <li class="nav_item">
-            <NuxtLink to="/projects" class="nav_link" @click="closeMenu">{{
-              $t("Header.projectsLink")
-            }}</NuxtLink>
+            <NuxtLink to="/projects" class="nav_link" @click="closeMenu">
+              {{ $t("Header.projectsLink") }}
+            </NuxtLink>
           </li>
 
           <li class="nav_item">
-            <NuxtLink to="/contact" class="nav_link" @click="closeMenu">{{
-              $t("Header.contactLink")
-            }}</NuxtLink>
+            <NuxtLink to="/contact" class="nav_link" @click="closeMenu">
+              {{ $t("Header.contactLink") }}
+            </NuxtLink>
           </li>
         </ul>
 
-        <!-- CLOSE BUTTON -->
-        <i
-          class="uil uil-times nav_close"
-          id="nav-close"
-          @click="closeMenu"
-        ></i>
-      </div>
-
-      <div class="nav_btns">
-        <!-- HUE CHANGE BUTTON -->
-        <HuePicker />
-        
-        <!-- THEME CHANGE BUTTON -->
-        <i :class="['change-theme', icon]" @click="toggleTheme"></i>
-
-        <!-- LANGUAGE SWITCHER -->
-        <LangSwitcher />
+        <i class="uil uil-times nav_close" @click="closeMenu"></i>
       </div>
     </nav>
   </header>
@@ -63,15 +80,12 @@ onMounted(() => {
   initTheme();
 });
 
-/* MENU STATE */
 const menuOpen = ref(false);
 
-/* OPEN MENU */
 const openMenu = () => {
   menuOpen.value = true;
 };
 
-/* CLOSE MENU */
 const closeMenu = () => {
   menuOpen.value = false;
 };

@@ -240,16 +240,108 @@ img {
   color: var(--first-color);
 }
 
+.mobile_menu {
+  display: none;
+}
+
+.desktop-only {
+  display: none;
+}
+
 @media screen and (max-width: 767px) {
   .nav_menu {
     position: fixed;
-    bottom: -100%;
-    left: 0;
-    width: 100%;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+
     background-color: var(--body-bg);
-    padding: 2rem 1.5rem 4rem;
-    border-radius: 1.5rem 1.5rem 0 0;
-    transition: 0.3s;
+    padding: 2rem 1.5rem;
+
+    transition: right 0.3s ease;
+    z-index: var(--z-modal);
+
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    box-shadow: none;
+  }
+
+  .show-menu {
+    right: 0;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .nav {
+    justify-content: space-between;
+  }
+
+  .desktop_menu {
+    display: none;
+  }
+
+  .nav_toggle {
+    display: block;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: var(--title-color);
+  }
+
+  .mobile_menu {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+
+    position: fixed;
+    top: 0;
+    right: -100%;
+    width: 280px;
+    height: 100vh;
+
+    background-color: var(--body-bg);
+    padding: 2rem 1.5rem;
+
+    transition: right 0.3s ease;
+    z-index: var(--z-modal);
+    
+    box-shadow: -10px 0 30px rgba(0, 0, 0, 0.15);
+  }
+
+  .show-menu {
+    right: 0;
+  }
+
+  .mobile_menu_header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+
+  .mobile_nav_list {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+
+  .mobile_nav_list .nav_link {
+    font-size: 1rem;
+    color: var(--title-color);
+  }
+
+  .nav_close {
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    bottom: auto;
+
+    font-size: 1.75rem;
+    color: var(--first-color);
+    cursor: pointer;
   }
 }
 
@@ -944,9 +1036,20 @@ img {
     column-gap: 2rem;
   }
 
-  .nav_menu {
+  .desktop_menu {
     display: flex;
     justify-content: center;
+  }
+
+  .mobile_menu,
+  .nav_toggle {
+    display: none;
+  }
+
+  .desktop-only {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
   }
 
   .change-theme {
