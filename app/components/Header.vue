@@ -2,26 +2,26 @@
   <header class="header" id="header">
     <nav class="nav container">
       <NuxtLink to="/" class="nav_logo" @click="closeMenu">
-        {{ $t("General.fullName") }}
+        {{ t("General.fullName") }}
       </NuxtLink>
 
       <div class="nav_menu desktop_menu">
         <ul class="nav_list">
           <li class="nav_item">
             <NuxtLink to="/about" class="nav_link">
-              {{ $t("Header.aboutLink") }}
+              {{ t("Header.aboutLink") }}
             </NuxtLink>
           </li>
 
           <li class="nav_item">
             <NuxtLink to="/projects" class="nav_link">
-              {{ $t("Header.projectsLink") }}
+              {{ t("Header.projectsLink") }}
             </NuxtLink>
           </li>
 
           <li class="nav_item">
             <NuxtLink to="/contact" class="nav_link">
-              {{ $t("Header.contactLink") }}
+              {{ t("Header.contactLink") }}
             </NuxtLink>
           </li>
         </ul>
@@ -47,19 +47,19 @@
         <ul class="mobile_nav_list">
           <li class="nav_item">
             <NuxtLink to="/about" class="nav_link" @click="closeMenu">
-              {{ $t("Header.aboutLink") }}
+              {{ t("Header.aboutLink") }}
             </NuxtLink>
           </li>
 
           <li class="nav_item">
             <NuxtLink to="/projects" class="nav_link" @click="closeMenu">
-              {{ $t("Header.projectsLink") }}
+              {{ t("Header.projectsLink") }}
             </NuxtLink>
           </li>
 
           <li class="nav_item">
             <NuxtLink to="/contact" class="nav_link" @click="closeMenu">
-              {{ $t("Header.contactLink") }}
+              {{ t("Header.contactLink") }}
             </NuxtLink>
           </li>
         </ul>
@@ -75,6 +75,7 @@ import { ref, onMounted } from "vue";
 import { useTheme } from "~/composables/useTheme";
 
 const { icon, toggleTheme, initTheme } = useTheme();
+const { t } = useI18n()
 
 onMounted(() => {
   initTheme();

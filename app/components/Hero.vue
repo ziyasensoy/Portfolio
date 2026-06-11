@@ -5,11 +5,11 @@
         <div class="home_data">
           <div class="home_title-wrapper">
             <h1 class="home_title" data-key="home_title">
-              {{ $t("Hero.homeTitle") }}
+              {{ t("Hero.homeTitle") }}
             </h1>
 
             <span class="home_title-name">
-              {{ $t("General.firstName") }}
+              {{ t("General.firstName") }}
             </span>
           </div>
           <div class="home_description">
@@ -20,7 +20,7 @@
                   href="https://www.hva.nl"
                   target="_blank"
                 >
-                  {{ $t("General.hva") }}
+                  {{ t("General.hva") }}
                 </a>
               </template>
 
@@ -30,7 +30,7 @@
                   href="https://altura.io"
                   target="_blank"
                 >
-                  {{ $t("General.altura") }}
+                  {{ t("General.altura") }}
                 </a>
               </template>
             </i18n-t>
@@ -42,7 +42,7 @@
               rel="noopener noreferrer"
               class="resume_download-button"
             >
-              {{ $t("General.resume") }}
+              {{ t("General.resume") }}
               <i class="uil uil-file-download"></i>
             </a>
 
@@ -54,7 +54,7 @@
               class="social_icon"
             >
               <i class="uil uil-linkedin-alt"></i>
-              {{ $t("General.Socials.linkedin") }}
+              {{ t("General.Socials.linkedin") }}
             </a>
 
             <span class="social_divider">|</span>
@@ -65,7 +65,7 @@
               class="social_icon"
             >
               <i class="uil uil-github-alt"></i>
-              {{ $t("General.Socials.github") }}
+              {{ t("General.Socials.github") }}
             </a>
 
             <span class="social_divider">|</span>
@@ -81,7 +81,7 @@
             <span class="social_divider">|</span>
 
             <NuxtLink to="/about" class="social_icon"
-              >{{ $t("Hero.more") }} <i class="uil uil-arrow-right"></i>
+              >{{ t("Hero.more") }} <i class="uil uil-arrow-right"></i>
             </NuxtLink>
           </div>
         </div>
@@ -89,3 +89,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

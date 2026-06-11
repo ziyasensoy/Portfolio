@@ -13,6 +13,7 @@ const props = defineProps<{
   projectKey: string;
 }>();
 
+const { t } = useI18n()
 const { projects } = useProjects();
 
 const project = computed(() =>
@@ -53,19 +54,19 @@ const projectComponent = computed(() => {
           <img
             v-if="project"
             :src="project.thumbnail"
-            :alt="$t(`Projects.items.${projectKey}.name`)"
+            :alt="t(`Projects.items.${projectKey}.name`)"
             class="project-image"
           />
         </div>
 
         <h1 class="project-title">
-          {{ $t(`Projects.items.${projectKey}.name`) }}
+          {{ t(`Projects.items.${projectKey}.name`) }}
         </h1>
 
         <div v-if="project" class="project-meta">
           <span class="project-date">
             <i class="uil uil-schedule"></i>
-            {{ $t(`Projects.items.${projectKey}.date`) }}
+            {{ t(`Projects.items.${projectKey}.date`) }}
           </span>
 
           <a
@@ -91,7 +92,7 @@ const projectComponent = computed(() => {
           <i class="uil uil-tag-alt"></i>
 
           <span
-            v-for="(tag, index) in $t(
+            v-for="(tag, index) in t(
               `Projects.items.${projectKey}.stack`
             ).split(',')"
             :key="index"

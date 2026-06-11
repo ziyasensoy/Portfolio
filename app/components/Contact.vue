@@ -8,18 +8,18 @@
       >
       <h2 class="contact_title">
         <i class="uil uil-message contact_icon"></i>
-        {{ $t("Contact.title") }}
+        {{ t("Contact.title") }}
       </h2>
         <div class="contact_inputs grid">
           <div class="contact_content">
             <label for="" class="contact_label">{{
-              $t("Contact.Form.name")
+              t("Contact.Form.name")
             }}</label>
             <input type="text" name="name" class="contact_input" required />
           </div>
           <div class="contact_content">
             <label for="" class="contact_label">{{
-              $t("Contact.Form.email")
+              t("Contact.Form.email")
             }}</label>
             <input
               type="email"
@@ -32,13 +32,13 @@
         </div>
         <div class="contact_content">
           <label for="" class="contact_label">{{
-            $t("Contact.Form.subject")
+            t("Contact.Form.subject")
           }}</label>
           <input type="text" name="subject" class="contact_input" />
         </div>
         <div class="contact_content">
           <label for="" class="contact_label">{{
-            $t("Contact.Form.message")
+            t("Contact.Form.message")
           }}</label>
           <textarea
             cols="0"
@@ -50,7 +50,7 @@
         </div>
         <div>
           <button type="submit" class="button button-flex">
-            {{ $t("Contact.Form.sendMessage") }}
+            {{ t("Contact.Form.sendMessage") }}
             <i class="uil uil-message button_icon"></i>
           </button>
         </div>
@@ -58,3 +58,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>

@@ -3,13 +3,13 @@
     <div class="footer_container container grid">
       <div class="footer_info">
         <p class="footer_copy">
-          {{ $t("Footer.copyright", { year: new Date().getFullYear() }) }}
+          {{ t("Footer.copyright", { year: new Date().getFullYear() }) }}
         </p>
 
         <span class="footer_separator">-</span>
 
         <p class="built-with">
-          {{ $t("Footer.builtWith") }}
+          {{ t("Footer.builtWith") }}
 
           <span class="icons">
             <img src="/logos/vue_logo.svg" alt="Vue" />Vue
@@ -21,7 +21,7 @@
 
       <div class="footer_widgets">
         <div class="footer_time">
-          <p>{{ $t("Footer.localTime") }}</p>
+          <p>{{ t("Footer.localTime") }}</p>
           <i class="uil uil-clock"></i>
           <span>{{ time }}</span>
         </div>
@@ -67,6 +67,7 @@
 <script setup lang="ts">
 import { ref, onMounted, onBeforeUnmount } from "vue";
 
+const { t } = useI18n()
 const time = ref("");
 
 const updateTime = () => {

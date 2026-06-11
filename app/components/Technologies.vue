@@ -3,7 +3,7 @@
     <div class="skills_container container">
       <h2 class="section_title">
         <i class="uil uil-brackets-curly contact_icon"></i>
-        {{ $t("Technologies.title") }}
+        {{ t("Technologies.title") }}
       </h2>
 
       <div class="skills_grid">

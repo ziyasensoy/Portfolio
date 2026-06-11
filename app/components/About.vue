@@ -3,7 +3,7 @@
     <div class="container">
       <h2 class="section_title">
         <i class="uil uil-user contact_icon"></i>
-        {{ $t("About.title") }}
+        {{ t("About.title") }}
       </h2>
 
       <div class="about_container container grid">
@@ -20,7 +20,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {{ $t("General.hva") }}
+                    {{ t("General.hva") }}
                   </a>
                 </template>
               </i18n-t>
@@ -35,7 +35,7 @@
                     target="_blank"
                     rel="noopener noreferrer"
                   >
-                    {{ $t("General.altura") }}
+                    {{ t("General.altura") }}
                   </a>
                 </template>
               </i18n-t>
@@ -49,7 +49,7 @@
                     target="_blank"
                     class="about_description-links"
                   >
-                    {{ $t("About.Description.email") }}
+                    {{ t("About.Description.email") }}
                   </a>
                 </template>
               </i18n-t>
@@ -62,7 +62,7 @@
               rel="noopener noreferrer"
               class="resume_download-button"
             >
-              {{ $t("General.resume") }}
+              {{ t("General.resume") }}
               <i class="uil uil-file-download"></i>
             </a>
 
@@ -74,7 +74,7 @@
               class="social_icon"
             >
               <i class="uil uil-linkedin-alt"></i>
-              {{ $t("General.Socials.linkedin") }}
+              {{ t("General.Socials.linkedin") }}
             </a>
 
             <span class="social_divider">|</span>
@@ -85,7 +85,7 @@
               class="social_icon"
             >
               <i class="uil uil-github-alt"></i>
-              {{ $t("General.Socials.github") }}
+              {{ t("General.Socials.github") }}
             </a>
 
             <span class="social_divider">|</span>
@@ -103,3 +103,7 @@
     </div>
   </section>
 </template>
+
+<script setup lang="ts">
+const { t } = useI18n()
+</script>
