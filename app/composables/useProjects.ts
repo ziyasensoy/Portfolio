@@ -18,36 +18,36 @@ export const useProjects = () => {
   const projects: Project[] = [
     {
       key: "votevision",
-      thumbnail: "/projects/thumbnails/votevision_thumbnail.jpeg",
+      thumbnail: publicPath("/projects/thumbnails/votevision_thumbnail.jpeg"),
       github: "https://github.com/ziyasensoy/VoteVision",
       component: VoteVisionProject,
     },
     {
       key: "meesterproef",
-      thumbnail: "/projects/thumbnails/meesterproef_thumbnail.jpeg",
+      thumbnail: publicPath("/projects/thumbnails/meesterproef_thumbnail.jpeg"),
       component: MeesterproefProject,
     },
     {
       key: "typografie",
-      thumbnail: "/projects/thumbnails/typografie_thumbnail.jpeg",
+      thumbnail: publicPath("/projects/thumbnails/typografie_thumbnail.jpeg"),
       github: "https://github.com/ziyasensoy/neude-type-specimen",
       component: TypografieProject,
     },
     {
       key: "interfaceInteraction",
-      thumbnail: "/projects/thumbnails/interfaceinteractie_thumbnail.jpeg",
+      thumbnail: publicPath("/projects/thumbnails/interfaceinteractie_thumbnail.jpeg"),
       demo: "https://editor.rive.app/file/ninja-animation/2202362?linkId=6aPI6rzXB0S5eW7ot8BHTg",
       component: InterfaceInteractionProject,
     },
     {
       key: "kleurCompositie",
-      thumbnail: "/projects/thumbnails/kleurcompositie_thumbnail.jpeg",
+      thumbnail: publicPath("/projects/thumbnails/kleurcompositie_thumbnail.jpeg"),
       demo: "https://www.figma.com/proto/aIwnjElmnG9Qrv5LD6pvcq/The-Golden-Roast---Designs?node-id=0-1&t=0cTaUvgtLMiYrhJZ-1",
       component: KleurCompositieProject,
     },
     {
       key: "beeldtaal",
-      thumbnail: "/projects/thumbnails/beeldtaal_thumbnail.jpeg",
+      thumbnail: publicPath("/projects/thumbnails/beeldtaal_thumbnail.jpeg"),
       component: BeeldtaalProject,
     },
   ];

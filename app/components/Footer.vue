@@ -12,9 +12,9 @@
           {{ t("Footer.builtWith") }}
 
           <span class="icons">
-            <img src="/logos/vue_logo.svg" alt="Vue" />Vue
-            <img src="/logos/nuxt_logo.svg" alt="Nuxt" /> Nuxt
-            <img src="/logos/ts_logo.svg" alt="TypeScript" /> TypeScript
+            <img :src="publicPath('/logos/vue_logo.svg')" alt="Vue" />Vue
+            <img :src="publicPath('/logos/nuxt_logo.svg')" alt="Nuxt" /> Nuxt
+            <img :src="publicPath('/logos/ts_logo.svg')" alt="TypeScript" /> TypeScript
           </span>
         </p>
       </div>

@@ -7,7 +7,7 @@
       </h2>
 
       <div class="about_container container grid">
-        <img src="/about_photo.png" alt="about_photo" class="about_img" />
+        <img :src="publicPath('/about_photo.png')" alt="about_photo" class="about_img" />
 
         <div class="about_data">
           <div class="about_description">
@@ -57,7 +57,7 @@
           </div>
           <div class="socials">
             <a
-              href="/resume.pdf"
+              :href="publicPath('/resume.pdf')"
               target="_blank"
               rel="noopener noreferrer"
               class="resume_download-button"

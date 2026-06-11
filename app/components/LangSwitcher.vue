@@ -16,7 +16,7 @@ const language = computed({
       @click="language = language === 'nl-NL' ? 'en-US' : 'nl-NL'"
     >
       <img
-        :src="language === 'nl-NL' ? '/flags/gb.svg' : '/flags/nl.svg'"
+        :src="publicPath(language === 'nl-NL' ? '/flags/gb.svg' : '/flags/nl.svg')"
         :alt="language === 'nl-NL' ? 'English' : 'Nederlands'"
       />
     </button>

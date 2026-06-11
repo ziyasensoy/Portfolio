@@ -10,23 +10,23 @@
 
     <h3>{{ t("Projects.items.votevision.content.landingPage") }}</h3>
     <img
-      src="/projects/votevision/votevision_landingpage.png"
+      :src="publicPath('/projects/votevision/votevision_landingpage.png')"
       alt="Votevision landing page"
     />
 
     <h3>{{ t("Projects.items.votevision.content.resultsPage") }}</h3>
     <img
-      src="/projects/votevision/votevision_resultspage_1.png"
+      :src="publicPath('/projects/votevision/votevision_resultspage_1.png')"
       alt="Votevision results page 1"
     />
     <img
-      src="/projects/votevision/votevision_resultspage_2.png"
+      :src="publicPath('/projects/votevision/votevision_resultspage_2.png')"
       alt="Votevision results page 2"
     />
 
     <h3>{{ t("Projects.items.votevision.content.quizPage") }}</h3>
     <img
-      src="/projects/votevision/votevision_quiz.png"
+      :src="publicPath('/projects/votevision/votevision_quiz.png')"
       alt="Votevision quiz page"
     />
   </div>

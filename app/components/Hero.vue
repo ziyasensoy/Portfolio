@@ -37,7 +37,7 @@
           </div>
           <div class="socials">
             <a
-              href="/resume.pdf"
+              :href="publicPath('/resume.pdf')"
               target="_blank"
               rel="noopener noreferrer"
               class="resume_download-button"

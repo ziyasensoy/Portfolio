@@ -37,42 +37,42 @@ const skills = [
   {
     name: t('Technologies.vue.name'),
     description: t('Technologies.vue.description'),
-    logo: "/logos/vue_logo.svg",
+    logo: publicPath("/logos/vue_logo.svg"),
   },
   {
     name: t('Technologies.typescript.name'),
     description: t('Technologies.typescript.description'),
-    logo: "/logos/ts_logo.svg",
+    logo: publicPath("/logos/ts_logo.svg"),
   },
   {
     name: t('Technologies.javascript.name'),
     description: t('Technologies.javascript.description'),
-    logo: "/logos/js_logo.svg",
+    logo: publicPath("/logos/js_logo.svg"),
   },
   {
     name: t('Technologies.figma.name'),
     description: t('Technologies.figma.description'),
-    logo: "/logos/figma_logo.svg",
+    logo: publicPath("/logos/figma_logo.svg"),
   },
   {
     name: t('Technologies.nuxt.name'),
     description: t('Technologies.nuxt.description'),
-    logo: "/logos/nuxt_logo.svg",
+    logo: publicPath("/logos/nuxt_logo.svg"),
   },
   {
     name: t('Technologies.tailwind.name'),
     description: t('Technologies.tailwind.description'),
-    logo: "/logos/Tailwind_CSS_Logo.svg",
+    logo: publicPath("/logos/Tailwind_CSS_Logo.svg"),
   },
   {
     name: t('Technologies.java.name'),
     description: t('Technologies.java.description'),
-    logo: "/logos/java_logo.svg",
+    logo: publicPath("/logos/java_logo.svg"),
   },
   {
     name: t('Technologies.git.name'),
     description: t('Technologies.git.description'),
-    logo: "/logos/git_logo.svg",
+    logo: publicPath("/logos/git_logo.svg"),
   },
 ];
 </script>
