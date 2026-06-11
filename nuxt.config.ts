@@ -15,6 +15,8 @@ export default defineNuxtConfig({
     },
   },
 
+  css: ["~/assets/css/main.css"],
+
   modules: ["@nuxtjs/i18n"],
   i18n: {
     langDir: "locales",
