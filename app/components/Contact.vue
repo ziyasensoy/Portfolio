@@ -1,16 +1,15 @@
 <template>
   <section class="contact section">
-    <div class="container">
-      <h2 class="section_title">
-        <i class="uil uil-message contact_icon"></i>
-        {{ $t("Contact.title") }}
-      </h2>
-
+    <div class="container contact_container">
       <form
         action="https://formsubmit.co/zcsensoy@gmail.com"
         class="contact_form grid"
         method="POST"
       >
+      <h2 class="contact_title">
+        <i class="uil uil-message contact_icon"></i>
+        {{ $t("Contact.title") }}
+      </h2>
         <div class="contact_inputs grid">
           <div class="contact_content">
             <label for="" class="contact_label">{{

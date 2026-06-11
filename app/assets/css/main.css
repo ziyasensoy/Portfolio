@@ -708,6 +708,10 @@ img {
   text-align: center;
 }
 
+.contact_title {
+  margin-bottom: var(--mb-0-25);
+}
+
 .contact_icon {
   font-size: 2rem;
   color: var(--first-color);
