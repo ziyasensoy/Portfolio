@@ -77,6 +77,7 @@
         "stack": "VueJS, Java, TypeScript, Tailwind, Figma",
         "date": "Sep 2024 - Jan 2025",
         "content": {
+          "grade": "Eindcijfer: 8",
           "intro1": "VoteVision is een full-stack webapplicatie die voornamelijk is gebouwd met Vue.js en Java. Het project richt zich op de Tweede Kamerverkiezingen van 2023 en heeft als doel politiek toegankelijker te maken voor mensen die normaal gesproken weinig interesse hebben in politieke onderwerpen. Door verkiezingsdata, educatieve content en interactieve functies te combineren, moedigt VoteVision gebruikers aan om meer te leren over de Nederlandse politiek en motiveert het hen om deel te nemen aan toekomstige verkiezingen.",
           "intro2": "De website bevat een politieke quiz, uitgebreide informatie over Nederlandse politieke partijen, uitleg over hoe het Nederlandse politieke systeem werkt, een pagina met verkiezingsuitslagen en een forum waar gebruikers met elkaar in gesprek kunnen gaan over politieke onderwerpen. Het doel is om politieke informatie op een toegankelijke en aantrekkelijke manier te presenteren voor een breed publiek.",
           "contributionsTitle": "Mijn Bijdragen",
@@ -99,28 +100,85 @@
         "name": "Interface en interactie",
         "description": "Een interactieve ninja-animatie waarin gebruikers verschillende acties kunnen uitvoeren om de ninja te besturen.",
         "stack": "Rive, Minor Visual Interface Design",
-        "date": "Apr 2026"
+        "date": "Apr 2026",
+        "content": {
+          "grade": "Eindcijfer: 8,5",
+          "intro1": "Voor dit project heb ik een interactief ninja-personage ontworpen en geanimeerd. Het doel was om een karakter te creëren dat op een natuurlijke manier reageert op invoer van de gebruiker door verschillende acties uit te voeren.",
+          "intro2": "Het personage bevindt zich in een traditionele ninja-omgeving die aansluit bij het thema van het project. Wanneer de applicatie start, staat de ninja in een rusthouding (idle state). In deze houding beweegt het personage subtiel op en neer en kijkt hij alert om zich heen. Hierdoor oogt de ninja levendig, ook wanneer er geen actie plaatsvindt.De gebruiker kan vervolgens kiezen uit drie verschillende acties: een schop, een stoot of het gooien van een ninjaster. Zodra een actie wordt geselecteerd, voert de ninja de bijbehorende animatie uit. Na afloop keert het personage automatisch terug naar de rusthouding.",
+          "intro3": "Door deze opzet ontstaat een interactieve animatie waarin het personage continu klaarstaat voor nieuwe opdrachten en de acties meerdere keren achter elkaar uitgevoerd kunnen worden. Het project richt zich daarmee op het combineren van karakteranimatie, interactie en een thematische omgeving tot één samenhangend geheel.",
+          "beginschetsenTitle": "T-pose schetsen",
+          "beginschetsen": "Voor het ontwerpen van het personage heb ik eerst twee verschillende T-pose concepten uitgewerkt om verschillende visuele stijlen te onderzoeken. De eerste versie had een klassieke ninja-uitstraling, terwijl de tweede versie een meer cartoonachtige stijl had. Voor beide concepten heb ik één of meerdere digitale uitwerkingen gemaakt om de ontwerpen verder te verkennen.Na het vergelijken van de ontwerpen heb ik gekozen voor de klassieke ninja-stijl. Deze stijl sloot beter aan bij de uitstraling die ik voor het personage wilde creëren en vormde een goede basis voor de verdere uitwerking.",
+          "tposeTitle": "T-pose digitale uitwerking",
+          "tpose": "Dit is de definitieve versie van het digitale object. Ten opzichte van de eerste digitale uitwerking heb ik verschillende details toegevoegd om het ontwerp herkenbaarder te maken als ninja. Zo zijn een hoofdband en een heupband toegevoegd, elementen die vaak voorkomen binnen het ninja-thema. Daarnaast heb ik een ninjaster onder de heupband geplaatst, zodat deze later gebruikt kan worden tijdens animaties. Ook zijn de vormen van het hoofd, de torso en de ledematen aangepast om het personage beter geschikt te maken voor animatie. Vervolgens heb ik een skeletstructuur (rig) met botten toegevoegd, waardoor bewegingen eenvoudiger kunnen worden geanimeerd en de animaties vloeiender ogen. Met deze aanpassingen is het digitale object volledig voorbereid op de volgende fase: het animeren van het personage.",
+          "tposeInspirationTitle": "Inspiratie voor karakter",
+          "tposeInspiration1": "Voor het ontwerp van mijn karakter heb ik mij laten inspireren door de stijl van de personages uit Duolingo. Deze stijl spreekt mij aan omdat deze clean, eenvoudig en goed geschikt is voor animaties. Door gebruik te maken van simpele vormen blijft het karakter overzichtelijk, terwijl er toch voldoende ruimte is voor speelse en vloeiende bewegingen.",
+          "tposeInspiration2": "Voor het maken van de animaties gebruik ik Rive. Dit is dezelfde animatietool die ook door Duolingo wordt gebruikt voor interactieve animaties binnen hun applicatie. Hierdoor kon ik inspiratie uit hun werkwijze meenemen in de ontwikkeling van mijn eigen karakter en animaties.",
+          "bewegingsconceptenTitle": "Bewegingsconcepten",
+          "bewegingsconcepten": "Ik had vier mogelijke bewegingen in gedachten voor de ninja: een kick (schop), een punch (stoot), het gooien van een ninjaster en het zwaaien met een katana (zwaard). Voor deze ideeen heb ik schetsen gemaakt om te kijken welke mij het beste en leukste lijken.Voor de uiteindelijke animatie heb ik drie bewegingen gekozen: kick, punch en het gooien van een ninjaster. ",
+          "technicalResearchTitle": "Technisch onderzoek",
+          "technicalResearch1": "Voor het animeren van het ninja-karakter heb ik ervoor gekozen om met Rive te werken. Dit is een tool die speciaal geschikt is voor het maken van interactieve animaties, wat goed aansluit bij de opdracht om de ninja via knoppen verschillende acties te laten uitvoeren.Met Rive kan ik state transitions opzetten, waardoor de ninja soepel kan wisselen tussen de idle-animatie en de verschillende acties, zoals een kick, punch en het gooien van een ninjaster. Omdat ik nog niet eerder met Rive had gewerkt, ben ik begonnen met het doen van onderzoek om het programma beter te leren kennen. Hiervoor heb ik verschillende tutorials en voorbeelden bekeken.",
+          "technicalResearch2": "Tijdens mijn technische onderzoek heb ik mij vooral verdiept in de basisprincipes van Rive, zoals het maken van designs, het omzetten van designs naar animaties, het werken met state transitions en het koppelen van interacties aan animaties.",
+          "storyboardTitle": "Storyboard",
+          "storyboard": "Om vooraf inzicht te krijgen in het verloop van de animatie heb ik een storyboard gemaakt. Hierin is stap voor stap weergegeven hoe het personage verschijnt en welke acties worden uitgevoerd. Het storyboard hielp mij om de volgorde van de animaties vast te leggen en vooraf na te denken over de overgangen tussen de verschillende bewegingen.",
+          "storyboard1": "De animatie begint met alleen de achtergrond in beeld. Het personage is op dat moment nog niet zichtbaar.",
+          "storyboard2": "Vervolgens springt de ninja van bovenaf het scherm in en landt in de scène.",
+          "storyboard3": "Na de introductie neemt de ninja een rusthouding (idle state) aan. In deze houding beweegt hij subtiel op en neer, buigt hij licht door zijn knieën en bewegen zijn schouders mee om het personage levendiger te laten ogen.",
+          "storyboard4": "Vanuit deze rusthouding kan de ninja een ninjaster naar zijn doel gooien.",
+          "storyboard5": "Daarnaast kan hij een snelle trap (kick) uitvoeren.",
+          "storyboard6": "Tot slot kan de ninja een krachtige stoot (punch) uitvoeren.",
+          "animationTitle": "Animaties",
+          "animation1": "Idle",
+          "animation2": "Ninja ster gooien",
+          "animation3": "Snelle trap (kick)",
+          "animation4": "Krachtige stoot (punch)",
+          "iconschetsenTitle": "Iconschetsen",
+          "iconschetsen": "Voor de bediening van de animaties heb ik drie interactieve knoppen ontworpen. Elke knop vertegenwoordigt een specifieke actie van de ninja en bevat een icoon dat aansluit bij de bijbehorende beweging. Door gebruik te maken van animaties en hover-effecten krijgen gebruikers direct visuele feedback over de functionaliteit van de knoppen.",
+          "iconschetsen1Title": "Ninjaster-knop",
+          "iconschetsen1": "De knop voor de ninjasteranimatie bevat een ninjaster als icoon. Wanneer de gebruiker niet met de cursor over de knop beweegt, draait de ninjaster langzaam rond. Zodra de gebruiker de knop aanwijst (hover), versnelt de draaisnelheid. Hierdoor wordt duidelijk dat de knop interactief is",
+          "iconschetsen2Title": "Kick-knop",
+          "iconschetsen2": "Voor de schopanimatie heb ik een voet als icoon gebruikt. In de standaardstatus draait de voet licht naar rechts en terug naar de beginpositie. Wanneer de gebruiker over de knop beweegt, draait de voet recht naar voren, stopt de beweging en wordt het icoon vergroot.",
+          "iconschetsen3Title": "Punch-knop",
+          "iconschetsen3": "De knop voor de stootanimatie wordt weergegeven met een vuist. In de standaardstatus draait de vuist snel met de klok mee en vervolgens tegen de klok in. Deze beweging blijft zich herhalen in een zogenoemd ping-pong-effect. Tijdens een hover wordt de vuist recht gedraaid, stopt de animatie en vergroot het icoon.",
+          "iconschetsen4Title": "Vormgeving en Plaatsing",
+          "iconschetsen4": "Alle iconen zijn geplaatst binnen een cirkelvormige knop. Deze vorm maakt direct duidelijk dat het om een interactief element gaat en vergroot tegelijkertijd het klikbare oppervlak (target area). Naast de animaties van de iconen zelf wordt ook de cirkel groter wanneer de gebruiker er met de cursor overheen beweegt. Hierdoor wordt extra nadruk gelegd op de interactiviteit van de knoppen.De knoppen worden rechtsonder in het scherm geplaatst, zodat ze goed bereikbaar zijn zonder de animatie van het personage te verstoren. Hierdoor blijven zowel de interface als de animaties overzichtelijk en gebruiksvriendelijk.",
+          "AudioTitle": "Audio",
+          "Audio": "Voor dit project heb ik onderzoek gedaan naar audio die past bij de sfeer van de animatie. Ik heb gekeken naar achtergrondmuziek die meer spanning en beleving toevoegt aan de scène, en naar geluidseffecten die aansluiten bij de acties van het personage, zoals een schop, een stoot en een ninja-kreet.Voor de punch- en kick-animaties heb ik gebruikgemaakt van geluidseffecten uit de ingebouwde audiobibliotheek van Rive. Hierdoor voelen de acties krachtiger en levendiger aan.",
+          "ReflectionTitle": "Reflectie",
+          "Reflection1": "Tijdens deze opdracht heb ik veel geleerd over het maken van animaties. Het was mijn eerste keer dat ik werkte met animatie en met Rive. In het begin was dit even wennen, maar naarmate ik meer ervaring opdeed, werd het steeds makkelijker om met de software te werken.",
+          "Reflection2": "Ik heb vooral geleerd hoe keyframes, state machines en overgangen tussen animaties werken. Daarnaast ontdekte ik hoe belangrijk timing is voor het creëren van natuurlijke en vloeiende bewegingen. Kleine aanpassingen kunnen hierbij een groot verschil maken.",
+          "Reflection3": "De grootste uitdaging was het soepel laten verlopen van de overgangen tussen verschillende animaties. Dit heb ik opgelost door de transition time tussen animaties te verhogen en ervoor te zorgen dat de laatste keyframe van een animatie goed aansloot op de eerste keyframe van de volgende animatie.",
+          "Reflection4": "Ik vond het een leuk en creatief proces om te doorlopen. Stap voor stap zag ik het project groeien van een idee naar een werkend eindresultaat. Naast het leren werken met nieuwe software heb ik ook een beter begrip gekregen van hoe animaties worden opgebouwd en uitgewerkt. Hierdoor was deze opdracht voor mij een waardevolle leerervaring."
+        }
       },
 
       "kleurCompositie": {
         "name": "Kleur en Compositie",
         "description": "High-fidelity ontwerpen voor een luxe koffiemerk.",
         "stack": "Figma, Minor Visual Interface Design",
-        "date": "Feb 2026 - Mrt 2026"
+        "date": "Feb 2026 - Mrt 2026",
+        "content": {
+          "grade": "Eindcijfer: 7"
+        }
       },
 
       "typografie": {
         "name": "Typografie",
         "description": "Een type specimen website voor het lettertype 'Neude'.",
         "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design",
-        "date": "Feb 2026 - Mrt 2026"
+        "date": "Feb 2026 - Mrt 2026",
+        "content": {
+          "grade": "Eindcijfer: 7"
+        }
       },
 
       "beeldtaal": {
         "name": "Beeldtaal",
         "description": "Dit project onderzocht hoe betekenis en emotie kunnen worden overgebracht in ontwerp met behulp van semiotiek, retorica en Gestaltprincipes.",
         "stack": "Canva, Minor Visual Interface Design",
-        "date": "Mrt 2026"
+        "date": "Mrt 2026",
+        "content": {
+          "grade": "Eindcijfer: 7,5"
+        }
       }
     }
   },

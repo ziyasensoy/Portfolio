@@ -823,6 +823,32 @@ img {
   margin-bottom: var(--mb-2);
 }
 
+.project-content-grade {
+  color: var(--first-color);
+  font-weight: var(--font-semi-bold);
+}
+
+.animation-images {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.animation-images img {
+  max-width: 500px;
+  width: 100%;
+  height: auto;
+}
+
+.animation-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.animation-row img {
+  width: calc(50% - 0.5rem);
+  max-width: 250px;
+}
 /*==================== CONTACT ====================*/
 .contact_container {
   display: flex;

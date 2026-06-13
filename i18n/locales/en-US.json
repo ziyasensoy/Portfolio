@@ -77,6 +77,7 @@
         "stack": "VueJS, Java, TypeScript, Tailwind, Figma",
         "date": "Sep 2024 - Jan 2025",
         "content": {
+          "grade": "Eindcijfer: 8",
           "intro1": "VoteVision is a full-stack web application built mainly with Vue.js and Java. The project focuses on the Dutch House of Representatives elections of 2023 and aims to make politics more accessible to people who are not normally interested in political topics. By combining election data, educational content, and interactive features, VoteVision encourages users to learn more about Dutch politics and motivates them to participate in future elections.",
           "intro2": "The website includes a political quiz, detailed information about Dutch political parties, explanations of how the Dutch political system works, an election results page, and a community forum where users can discuss political topics. The goal is to present political information in an engaging and approachable way for a wider audience.",
           "contributionsTitle": "My Contributions",
@@ -92,35 +93,103 @@
         "name": "Capstone project VID minor",
         "description": "An educational website about the North Sea that combines the knowledge, creativity, and design skills developed throughout my minor into a interactive user experience.",
         "stack": "React, Nuxt, TypeScript, CSS, Minor Visual Interface Design",
-        "date": "May 2026 - Jun 2026"
+        "date": "May 2026 - Jun 2026",
+        "content": {
+          "grade": "Grade: 8.5",
+          "intro1": "VoteVision is a full-stack web application built mainly with Vue.js and Java. The project focuses on the Dutch House of Representatives elections of 2023 and aims to make politics more accessible to people who are not normally interested in political topics. By combining election data, educational content, and interactive features, VoteVision encourages users to learn more about Dutch politics and motivates them to participate in future elections.",
+          "intro2": "The website includes a political quiz, detailed information about Dutch political parties, explanations of how the Dutch political system works, an election results page, and a community forum where users can discuss political topics. The goal is to present political information in an engaging and approachable way for a wider audience.",
+          "contributionsTitle": "My Contributions",
+          "contribution1": "I was responsible for developing the landing page, the political quiz, and the election results page. The landing page introduces visitors to the platform and its purpose, while the quiz provides an interactive way for users to learn more about Dutch politics in a fun and engaging way.",
+          "contribution2": "For the election results page, I worked with official election data from the 2023 Dutch House of Representatives elections, which were provided by kiesraad.nl. The results were imported from CSV files provided by Kiesraad and processed within the application. The page presents election statistics in a clear and accessible format, allowing users to explore the results and gain a better understanding of the election outcome.",
+          "landingPage": "Landing page",
+          "resultsPage": "Election results page",
+          "quizPage": "Quiz page"
+        }
       },
 
       "interfaceInteraction": {
         "name": "Interface and interaction",
         "description": "An interactive ninja animation where users can trigger different actions to control the ninja.",
         "stack": "Rive, Minor Visual Interface Design",
-        "date": "Apr 2026"
+        "date": "Apr 2026",
+        "content": {
+          "grade": "Grade: 8.5",
+          "intro1": "For this project, I designed and animated an interactive ninja character. The goal was to create a character that naturally responds to user input by performing different actions.",
+          "intro2": "The character is placed in a traditional ninja-themed environment. When the application starts, the ninja is in an idle state. In this state, the character moves subtly up and down and looks around attentively, making the character appear alive even when no action is taking place. The user can choose between three different actions: a kick, a punch, or throwing a ninja star. When an action is selected, the ninja performs the corresponding animation and then automatically returns to the idle state.",
+          "intro3": "This setup creates an interactive animation in which the character is always ready for new commands, allowing the actions to be repeated multiple times. The project focuses on combining character animation, interaction, and a thematic environment into one cohesive experience.",
+          "beginschetsenTitle": "T-Pose Sketches",
+          "beginschetsen": "To design the character, I first created two different T-pose concepts to explore different visual styles. The first version had a classic ninja appearance, while the second version featured a more cartoon-like style. For both concepts, I created one or more digital versions to further explore the designs. After comparing the concepts, I chose the classic ninja style. This style better matched the look and feel I wanted for the character and provided a strong foundation for further development.",
+          "tposeTitle": "T-Pose Digital Design",
+          "tpose": "This is the final version of the digital character. Compared to the first digital version, I added several details to make the design more recognizable as a ninja. For example, I added a headband and waist sash, which are common elements in ninja designs. I also placed a ninja star underneath the sash so it could later be used during animations. Additionally, I adjusted the shapes of the head, torso, and limbs to make the character more suitable for animation. I then added a rig with bones, making it easier to animate movements and creating smoother animations. With these improvements, the digital character was fully prepared for the next stage: animation.",
+          "tposeInspirationTitle": "Character Inspiration",
+          "tposeInspiration1": "For the design of my character, I was inspired by the style of the characters from Duolingo. I like this style because it is clean, simple, and highly suitable for animation. By using simple shapes, the character remains clear and recognizable while still allowing for playful and fluid movements.",
+          "tposeInspiration2": "I used Rive to create the animations. This is the same animation tool used by Duolingo for its interactive animations. This allowed me to draw inspiration from their approach while developing my own character and animations.",
+          "bewegingsconceptenTitle": "Animation Concepts",
+          "bewegingsconcepten": "I initially considered four possible movements for the ninja: a kick, a punch, throwing a ninja star, and swinging a katana. I created sketches for these ideas to determine which actions were the most appealing and enjoyable. For the final animation, I selected three movements: a kick, a punch, and throwing a ninja star.",
+          "technicalResearchTitle": "Technical Research",
+          "technicalResearch1": "For animating the ninja character, I chose to use Rive. This tool is specifically designed for creating interactive animations, making it a good fit for a project where the character performs different actions based on button inputs. Rive allows me to create state transitions, enabling the ninja to smoothly switch between the idle animation and actions such as kicking, punching, and throwing a ninja star. Since I had never worked with Rive before, I started by researching the software through tutorials and examples.",
+          "technicalResearch2": "During my technical research, I focused on the fundamentals of Rive, including creating designs, turning designs into animations, working with state transitions, and connecting interactions to animations.",
+          "storyboardTitle": "Storyboard",
+          "storyboard": "To plan the flow of the animation, I created a storyboard. It illustrates each step of the animation sequence and helped me think about the transitions between different actions.",
+          "storyboard1": "The animation begins with only the background visible.",
+          "storyboard2": "The ninja jumps into the scene from above.",
+          "storyboard3": "The ninja enters an idle state, moving subtly up and down while slightly bending the knees and moving the shoulders.",
+          "storyboard4": "From the idle state, the ninja can throw a ninja star.",
+          "storyboard5": "The ninja can perform a quick kick.",
+          "storyboard6": "The ninja can perform a powerful punch.",
+          "animationTitle": "Animations",
+          "animation1": "Idle",
+          "animation2": "Throwing a Ninja Star",
+          "animation3": "Quick Kick",
+          "animation4": "Powerful Punch",
+          "iconschetsenTitle": "Icon Sketches",
+          "iconschetsen": "To control the animations, I designed three interactive buttons. Each button represents a specific ninja action and includes an icon related to that action. Through animations and hover effects, users receive clear visual feedback.",
+          "iconschetsen1Title": "Ninja Star Button",
+          "iconschetsen1": "The ninja star icon slowly rotates when idle. On hover, the rotation speed increases, making the button feel interactive.",
+          "iconschetsen2Title": "Kick Button",
+          "iconschetsen2": "The kick button uses a foot icon. In its default state, the foot slightly rotates to the right and back. On hover, it faces forward, stops moving, and increases in size.",
+          "iconschetsen3Title": "Punch Button",
+          "iconschetsen3": "The punch button uses a fist icon. By default, the fist rotates clockwise and then counterclockwise in a repeating ping-pong motion. On hover, the fist straightens, stops rotating, and enlarges.",
+          "iconschetsen4Title": "Design and Placement",
+          "iconschetsen4": "All icons are placed inside circular buttons. This makes them instantly recognizable as interactive elements while also increasing the clickable area. In addition to the icon animations, the circle itself enlarges on hover, further emphasizing interactivity. The buttons are positioned in the bottom-right corner of the screen to ensure easy access without distracting from the character animation.",
+          "AudioTitle": "Audio",
+          "Audio": "For this project, I researched audio that would fit the atmosphere of the animation. I explored background music that adds tension and immersion to the scene, as well as sound effects that match the character’s actions, such as kicks, punches, and ninja sounds. For the punch and kick animations, I used sound effects from Rive’s built-in audio library. These sounds make the actions feel more impactful and engaging.",
+          "ReflectionTitle": "Reflection",
+          "Reflection1": "During this project, I learned a lot about animation. It was my first time creating animations and my first experience working with Rive. At the beginning, there was a learning curve, but as I gained experience, the workflow became much easier.",
+          "Reflection2": "I learned how keyframes, state machines, and animation transitions work. I also discovered how important timing is when creating natural and fluid movement. Even small adjustments can make a significant difference in how realistic an animation feels.",
+          "Reflection3": "The biggest challenge was creating smooth transitions between different animations. I solved this by increasing the transition time between animations and ensuring that the final keyframe of one animation matched the first keyframe of the next.",
+          "Reflection4": "I enjoyed the creative process and seeing the project evolve step by step into a finished product. Besides learning new software, I also gained a better understanding of how animations are designed and developed, making this a valuable learning experience."
+        }
       },
 
       "kleurCompositie": {
         "name": "Color and Composition",
         "description": "High-fidelity designs created for a luxury coffee brand.",
         "stack": "Figma, Minor Visual Interface Design",
-        "date": "Feb 2026 - Mar 2026"
+        "date": "Feb 2026 - Mar 2026",
+        "content": {
+          "grade": "Grade: 7"
+        }
       },
 
       "typografie": {
         "name": "Typography",
         "description": "A type specimen website created for the typeface 'Neude'.",
         "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design",
-        "date": "Feb 2026 - Mar 2026"
+        "date": "Feb 2026 - Mar 2026",
+        "content": {
+          "grade": "Grade: 7"
+        }
       },
 
       "beeldtaal": {
         "name": "Visual language",
         "description": "This project explored how meaning and emotion can be conveyed through design using principles such as semiotics, rhetoric, and Gestalt.",
         "stack": "Canva, Minor Visual Interface Design",
-        "date": "Mar 2026"
+        "date": "Mar 2026",
+        "content": {
+          "grade": "Grade: 7,5"
+        }
       }
     }
   },

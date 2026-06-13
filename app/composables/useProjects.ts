@@ -25,18 +25,24 @@ export const useProjects = () => {
     {
       key: "meesterproef",
       thumbnail: publicPath("/projects/thumbnails/meesterproef_thumbnail.jpeg"),
+      github: "https://github.com/ziyasensoy/Meesterproef",
+      demo: "https://ziyasensoy.github.io/Meesterproef/",
       component: MeesterproefProject,
     },
     {
       key: "typografie",
       thumbnail: publicPath("/projects/thumbnails/typografie_thumbnail.jpeg"),
-      github: "https://github.com/ziyasensoy/neude-type-specimen",
+      github: "https://github.com/ziyasensoy/neude-type-specimen/",
+      demo: "https://ziyasensoy.github.io/neude-type-specimen/",
       component: TypografieProject,
     },
     {
       key: "interfaceInteraction",
       thumbnail: publicPath("/projects/thumbnails/interfaceinteractie_thumbnail.jpeg"),
-      demo: "https://editor.rive.app/file/ninja-animation/2202362?linkId=6aPI6rzXB0S5eW7ot8BHTg",
+      github: "https://editor.rive.app/file/ninja-animation/2202362?linkId=6aPI6rzXB0S5eW7ot8BHTg",
+      demo: publicPath(
+        "/projects/interfaceinteractie/Eindproduct_Ziya_Sensoy.mp4",
+      ),
       component: InterfaceInteractionProject,
     },
     {
