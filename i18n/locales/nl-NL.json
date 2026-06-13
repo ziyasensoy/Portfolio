@@ -157,7 +157,25 @@
         "stack": "Figma, Minor Visual Interface Design",
         "date": "Feb 2026 - Mrt 2026",
         "content": {
-          "grade": "Eindcijfer: 7"
+          "grade": "Eindcijfer: 7",
+          "intro1": "Binnen het vak Kleur en Compositie heb ik geleerd hoe kleurgebruik, visuele hiërarchie en compositie bijdragen aan een effectieve gebruikerservaring. Tijdens dit project stond het ontwerpen van een consistente visuele identiteit centraal, waarbij zowel esthetiek als gebruiksvriendelijkheid een belangrijke rol speelden.",
+          "intro2": "Voor deze opdracht heb ik ontwerpen gemaakt voor het luxe koffiemerk The Golden Roast. Het project bestond uit het ontwerpen van een landing page en een gebruikersdashboard. Beide ontwerpen zijn ontwikkeld op basis van een vooraf gedefinieerde persona: Mark, een vaste klant die waarde hecht aan gemak, herkenbaarheid en een warme merkbeleving.",
+          "intro3": "Mark koopt doorgaans dezelfde koffieblend en wil snel en eenvoudig zijn favoriete producten kunnen nabestellen. Daarom lag de focus binnen het dashboard op efficiëntie en overzicht. Belangrijke functionaliteiten, zoals het bekijken van zijn loyaliteitsstatus en het direct opnieuw bestellen van favoriete koffiebonen, kregen een prominente plaats binnen de interface.",
+          "brandingTitle": "Branding & Kleurpsychologie",
+          "branding1": "Voor het ontwerp heb ik een kleurenpalet gekozen dat aansluit bij de uitstraling van een premium koffiebeleving en de behoeften van de persona. In de dagmodus vormt Ivory Cream (#F6F1EA) de hoofdkleur, aangevuld met Mocha Brown (#5C3A2E) en Warm Gold (#C6A75E) als accentkleuren. Deze combinatie zorgt voor een lichte, warme en uitnodigende uitstraling die goed past bij een ontspannen koffiemoment.",
+          "branding2": "Voor de nachtmodus heb ik gekozen voor Mocha Brown (#5C3A2E) als dominante kleur. Hierdoor voelt de interface rustiger aan in een donkere omgeving. Door lichte tekst in Ivory Cream (#F6F1EA) en accenten in Warm Gold (#C6A75E) toe te voegen blijft het contrast hoog en zijn belangrijke elementen goed zichtbaar. Dit zorgt ervoor dat de nachtmodus zowel functioneel als luxueus aanvoelt.",
+          "hierarchieTitle": "Visuele Hiërarchie & Compositie",
+          "hierarchie1": "Bij het ontwerpen van de landingspagina heb ik gebruikgemaakt van een duidelijke visuele hiërarchie om de aandacht van de gebruiker naar de belangrijkste onderdelen te sturen. De opbouw volgt een F-pattern, waarbij het oog eerst naar het logo en de nachtmodusknop wordt geleid, vervolgens naar de titel en introductietekst, en daarna naar de sfeerafbeelding.",
+          "hierarchie2": "Het belangrijkste element op de pagina is de call-to-action knop “Ervaar de collectie”. Deze vormt het belangrijkste interactiepunt voor de gebruiker. Voor de lay-out heb ik een column grid gebruikt, waardoor alle elementen consistent zijn uitgelijnd. De combinatie van structuur, balans en voldoende witruimte draagt bij aan een luxe en hoogwaardige uitstraling.",
+          "datavisualisatieTitle": "Datavisualisatie (Smaak-Radar)",
+          "datavisualisatie1": "Voor de smaakradar heb ik gekozen voor de assen Balans, Body, Duurzaamheid, Zuiverheid, Aroma en Complexiteit. Deze termen worden veel gebruikt binnen de koffiewereld en zijn daardoor herkenbaar voor de doelgroep. Door deze eigenschappen visueel weer te geven kan de gebruiker snel inzicht krijgen in het smaakprofiel van een koffie.",
+          "datavisualisatie2": "De radar laat zien dat de getoonde koffie vooral hoog scoort op body en zuiverheid, aangevuld met sterke scores op aroma en complexiteit. Hierdoor kan de gebruiker in één oogopslag zien welke eigenschappen de koffie kenmerken, zonder eerst uitgebreide productinformatie te hoeven lezen.",
+          "figmatechniektitle": "Figma Techniek",
+          "figmatechniek1": "Tijdens het ontwerpen heb ik veel gebruikgemaakt van Auto Layout en Components. Auto Layout heb ik toegepast op onderdelen zoals de navigatiebalk, tekstsecties, knoppen en footer. Hierdoor bleven afstanden en uitlijning automatisch consistent, zelfs wanneer content werd aangepast.",
+          "figmatechniek2": "Daarnaast heb ik Components gebruikt voor herbruikbare elementen zoals kaarten, de navigatiebalk en de footer. Dit maakte mijn workflow efficiënter en zorgde voor een overzichtelijke bestandsstructuur. Ook heb ik rekening gehouden met toegankelijkheid door voldoende contrast toe te passen, zoals Mocha Brown (#5C3A2E) op Warm Gold (#C6A75E), duidelijke typografie en voldoende witruimte. Hierdoor voldoet het ontwerp aan de WCAG AA-richtlijnen.",
+          "reflectieTitle": "Reflectie",
+          "reflectie1": "Tijdens deze opdracht ontdekte ik hoe belangrijk een goede structuur in Figma is voor een efficiënt ontwerpproces. In het begin plaatste ik onderdelen nog regelmatig handmatig, waardoor afstanden soms inconsistent waren en het aanpassen van de lay-out meer tijd kostte.",
+          "reflectie2": "Door Auto Layout consequenter te gebruiken, bleef de opbouw van het ontwerp overzichtelijk en werden wijzigingen veel eenvoudiger door te voeren. Hierdoor heb ik niet alleen mijn technische vaardigheden in Figma verbeterd, maar ook geleerd hoe belangrijk schaalbaarheid en consistentie zijn binnen interfaceontwerp."
         }
       },
 
