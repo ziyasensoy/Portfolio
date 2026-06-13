@@ -178,7 +178,30 @@
         "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design",
         "date": "Feb 2026 - Mar 2026",
         "content": {
-          "grade": "Grade: 7"
+          "grade": "Grade: 7",
+          "intro1": "During the Typography course, I explored how letterforms, style, and design influence the way information is communicated. Throughout this project, I completed various assignments in which I analyzed, researched, and applied typography in my own designs.",
+          "intro2": "Through research, sketching, and design iterations, I learned how typographic choices contribute to the appearance, readability, and visual identity of a design. This project helped me become more aware of typography and apply it more purposefully within my own work.",
+          "opdracht1Title": "Assignment 1: City Walk",
+          "opdracht1line1": "For this assignment, I completed a City Type Walk, during which I explored typography in public spaces. During the walk, I took a total of 30 photographs of different forms of typography that I encountered in my surroundings.",
+          "opdracht1line2": "From these photographs, I selected 15 examples of neutral typography and 15 examples of expressive typography. Neutral typography primarily focuses on readability and functionality, while expressive typography is intended to convey a specific atmosphere, emotion, or identity.",
+          "opdracht1line3": "After collecting the photographs, I selected the three most interesting examples. I evaluated them based on aspects such as design, readability, visual appeal, and how well the typography related to its environment. One of these selected examples then served as the foundation for the next two assignments. As a result, the City Type Walk was not only an exploration of typography in public spaces but also the starting point for the further development of this project.",
+          "opdracht2Title": "Assignment 2: Good Time Date",
+          "opdracht2": "For this assignment, I designed an A5-sized calendar page based on a self-selected typographic example from the City Type Walk. I chose the Neude typeface and conducted additional research into its typographic characteristics and visual identity.",
+          "onderzoekTitle": "Research",
+          "onderzoek1": "The Neude typeface is based on the style of the Amsterdam School and is inspired by the sculptures of Hendrik van den Eijnde in the former post office building at Neude in Utrecht. This art and architectural movement emerged at the beginning of the twentieth century and is known for its expressive forms, decorative details, and strong focus on typography. Within Amsterdam School architecture, attention was not only given to buildings themselves but also to smaller visual elements such as facade lettering, ornaments, and house numbers. These characteristics served as an important source of inspiration for the design of the Neude typeface.",
+          "onderzoek2": "The typeface is characterized by an Art Deco style with a strong contrast between very thin and thick strokes. This clear difference in stroke weight gives the typeface a distinctive and expressive appearance. The letterforms are often geometric and decorative, resulting in a strong visual identity. Because of these characteristics, the typeface is less suitable for long passages of body text but ideal for headings, titles, and posters where typography plays a prominent visual role.",
+          "onderzoek3": "Neude is a display typeface, meaning it is primarily intended for larger text sizes and is less suitable for body text. For this reason, I combined Neude with Futura in my type specimen. Like Neude, Futura originated in the 1920s. In addition, Futura is also a geometric typeface, but its simple and balanced letterforms make it much more readable in longer texts. As a result, Neude and Futura form a suitable combination within my design.",
+          "kalenderbladSchetsenTitle": "Calendar Page Sketches",
+          "kalenderbladSchetsen": "Before creating the final design, I produced several hand-drawn sketches. In these sketches, I experimented with different compositions, formats, and placements of the date to determine which layout worked best.",
+          "kalenderbladTitle": "A5 Calendar Page",
+          "kalenderblad": "Based on the sketches, I designed a final calendar page featuring my birthday using the Neude typeface. During the design process, I focused on hierarchy, readability, and an appealing visual presentation.",
+          "typespecimenTitle": "Type Specimen",
+          "typespecimen1": "For the Type Specimen assignment, I designed and developed an interactive website centered around the Neude typeface. The goal of this project was to present the characteristics, history, and applications of the typeface in an engaging and accessible way. Particular attention was given to typography, visual hierarchy, and user experience. Through animations, interactive elements, and consistent visual design, visitors are guided step by step through the story behind the typeface.",
+          "typespecimen2": "View the complete Type Specimen via the link below:",
+          "typespecimenLink": "https://ziyasensoy.github.io/neude-type-specimen/",
+          "typespecimenKarakterset": "Character Set",
+          "typespecimenLetteranalyse": "Letter Analysis",
+          "typespecimenOorsprong": "Origin"
         }
       },
 

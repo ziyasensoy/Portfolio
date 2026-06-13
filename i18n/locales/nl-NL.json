@@ -167,7 +167,30 @@
         "stack": "HTML, CSS, JavaScript, Minor Visual Interface Design",
         "date": "Feb 2026 - Mrt 2026",
         "content": {
-          "grade": "Eindcijfer: 7"
+          "grade": "Eindcijfer: 7",
+          "intro1": "Binnen het vak Typografie heb ik onderzocht hoe lettervormen, stijl en vormgeving invloed hebben op de manier waarop informatie wordt overgebracht. Tijdens dit project heb ik verschillende opdrachten uitgevoerd waarbij ik typografie analyseerde, onderzocht en zelf toepaste in ontwerpen.",
+          "intro2": "Door middel van onderzoek, schetsen en ontwerpiteraties heb ik geleerd hoe typografische keuzes bijdragen aan de uitstraling, leesbaarheid en visuele identiteit van een ontwerp. Dit project heeft mij geholpen om bewuster naar typografie te kijken en deze doelgericht toe te passen binnen mijn eigen ontwerpen.",
+          "opdracht1Title": "Opdracht 1: City walk",
+          "opdracht1line1": "Voor deze opdracht heb ik een City Type Walk uitgevoerd, waarbij ik op zoek ben gegaan naar typografie in de openbare ruimte. Tijdens deze wandeling heb ik in totaal 30 foto's gemaakt van verschillende vormen van tekst die ik tegenkwam in mijn omgeving.",
+          "opdracht1line2": "Van deze foto's heb ik 15 voorbeelden geselecteerd van neutrale typografie en 15 voorbeelden van expressieve typografie. Bij neutrale typografie ligt de nadruk vooral op leesbaarheid en functionaliteit, terwijl expressieve typografie juist bedoeld is om een bepaalde sfeer, emotie of identiteit over te brengen.",
+          "opdracht1line3": "Na het verzamelen van de foto's heb ik de drie meest interessante voorbeelden geselecteerd. Hierbij heb ik gekeken naar aspecten zoals vormgeving, leesbaarheid, uitstraling en de manier waarop de typografie aansluit bij de omgeving. Eén van deze geselecteerde voorbeelden heb ik vervolgens gebruikt als uitgangspunt voor de volgende twee opdrachten. Hierdoor vormde de City Type Walk niet alleen een onderzoek naar typografie in de openbare ruimte, maar ook de basis voor de verdere uitwerking van dit project.",
+          "opdracht2Title": "Opdracht 2: Good time date",
+          "opdracht2": "Voor deze opdracht heb ik een datumblad op A5-formaat ontworpen op basis van een zelfgekozen typografisch voorbeeld uit de City Type Walk. Ik heb gekozen voor het lettertype Neude en daarnaast onderzoek gedaan naar de typografische kenmerken en uitstraling van dit lettertype.",
+          "onderzoekTitle": "Onderzoek",
+          "onderzoek1": "Het lettertype Neude is gebaseerd op de stijl van de Amsterdamse School en is geïnspireerd op de sculpturen van Hendrik van den Eijnde in het voormalige postkantoor aan de Neude in Utrecht. Deze kunst- en architectuurstroming ontstond aan het begin van de twintigste eeuw en staat bekend om haar expressieve vormen, decoratieve details en sterke aandacht voor typografie. Binnen de architectuur van de Amsterdamse School werd niet alleen veel aandacht besteed aan gebouwen, maar ook aan kleinere visuele elementen zoals gevelletters, ornamenten en huisnummers. Deze kenmerken vormden een belangrijke inspiratiebron voor het ontwerp van het lettertype Neude.",
+          "onderzoek2": "Het lettertype kenmerkt zich door een Art Deco-stijl met een sterk contrast tussen zeer dunne en dikke lijnen. Door dit duidelijke verschil in lijngewicht krijgt het lettertype een opvallende en expressieve uitstraling. De lettervormen zijn vaak geometrisch en decoratief, waardoor Neude een sterke visuele identiteit heeft. Door deze eigenschappen is het lettertype minder geschikt voor lange stukken lopende tekst, maar juist ideaal voor koppen, titels en posters waarbij typografie een belangrijke visuele rol speelt.",
+          "onderzoek3": "Neude is een displaylettertype, wat betekent dat het voornamelijk bedoeld is voor grotere tekstformaten en minder geschikt is voor lopende tekst. Daarom combineer ik Neude in mijn typespecimen met Futura. Futura stamt, net als Neude, uit de jaren twintig van de vorige eeuw. Daarnaast is Futura eveneens een geometrisch lettertype, maar door de eenvoudige en evenwichtige lettervormen is het veel beter leesbaar in langere teksten. Hierdoor vormen Neude en Futura samen een passende combinatie binnen mijn ontwerp.",
+          "kalenderbladSchetsenTitle": "Kalenderblad schetsen",
+          "kalenderbladSchetsen": "Voordat ik het definitieve ontwerp maakte, heb ik meerdere handmatige schetsen gemaakt. In deze schetsen heb ik geëxperimenteerd met verschillende composities, formaten en plaatsingen van de datum om te onderzoeken welke opmaak het beste werkte.",
+          "kalenderbladTitle": "Kalenderblad op a5",
+          "kalenderblad": "Op basis van de schetsen heb ik een definitief kalenderblad van mijn verjaardag ontworpen met het lettertype Neude. Hierbij heb ik gelet op hiërarchie, goede leesbaarheid en een aantrekkelijke vormgeving.",
+          "typespecimenTitle": "Type specimen",
+          "typespecimen1": "Voor de opdracht Type Specimen heb ik een interactieve website ontworpen en ontwikkeld waarin het lettertype Neude centraal staat. Het doel van deze opdracht was om de eigenschappen, geschiedenis en toepassingen van het lettertype op een aantrekkelijke en overzichtelijke manier te presenteren. Hierbij heb ik veel aandacht besteed aan typografie, visuele hiërarchie en de gebruikerservaring. Door middel van animaties, interactieve elementen en een consistente vormgeving wordt de bezoeker stap voor stap meegenomen in het verhaal achter het lettertype.",
+          "typespecimen2": "Bekijk de volledige Type Specimen via de onderstaande link:",
+          "typespecimenLink": "https://ziyasensoy.github.io/neude-type-specimen/",
+          "typespecimenKarakterset": "Karakterset",
+          "typespecimenLetteranalyse": "Letteranalyse",
+          "typespecimenOorsprong": "Oorsprong"
         }
       },
 
