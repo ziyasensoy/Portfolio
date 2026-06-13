@@ -80,7 +80,7 @@
 
             <span class="social_divider">|</span>
 
-            <NuxtLink to="/about" class="social_icon"
+            <NuxtLink :to="localePath('/about')" class="social_icon"
               >{{ t("Hero.more") }} <i class="uil uil-arrow-right"></i>
             </NuxtLink>
           </div>
@@ -92,4 +92,5 @@
 
 <script setup lang="ts">
 const { t } = useI18n()
+const localePath = useLocalePath();
 </script>

@@ -1,6 +1,6 @@
 <template>
   <NuxtLink
-    :to="`/projects/${project.key}`"
+    :to="localePath(`/projects/${project.key}`)"
     class="project_card"
   >
     <div class="project_image_wrapper">
@@ -39,6 +39,7 @@
 import type { Project } from "~/composables/useProjects";
 
 const { t } = useI18n()
+const localePath = useLocalePath();
 
 defineProps<{
   project: Project;

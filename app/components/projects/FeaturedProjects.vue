@@ -7,7 +7,7 @@
           {{ t("Projects.featured") }}
         </h2>
 
-        <NuxtLink to="/projects" class="see_more_btn">
+        <NuxtLink :to="localePath('/projects')" class="see_more_btn">
           {{ t("Projects.viewMore") }} <i class="uil uil-arrow-right"></i>
         </NuxtLink>
       </div>
@@ -29,6 +29,7 @@ import { useProjects } from "~/composables/useProjects";
 
 const { t } = useI18n()
 const { projects } = useProjects();
+const localePath = useLocalePath();
 
 const featuredProjects = computed(() => projects.slice(0, 2));
 </script>
