@@ -1,5 +1,7 @@
 <template>
   <div class="project-content">
+    <p class="project-content-grade">{{ t("Projects.items.votevision.content.grade") }}</p>
+
     <p>{{ t("Projects.items.votevision.content.intro1") }}</p>
     <p>{{ t("Projects.items.votevision.content.intro2") }}</p>
 
