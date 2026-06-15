@@ -4,11 +4,13 @@ import VoteVisionProject from "~/components/projects/projectDetails/VoteVisionPr
 import KleurCompositieProject from "~/components/projects/projectDetails/KleurCompositieProject.vue";
 import TypografieProject from "~/components/projects/projectDetails/TypografieProject.vue";
 import BeeldtaalProject from "~/components/projects/projectDetails/BeeldtaalProject.vue";
+import type { ProjectFilterId } from "~/utils/project-filters";
 
 export type Project = {
   key: string;
   thumbnail: string;
   component: Component;
+  filters: ProjectFilterId[];
   github?: string;
   demo?: string;
 };
@@ -21,6 +23,7 @@ export const useProjects = () => {
       thumbnail: publicPath("/projects/thumbnails/votevision_thumbnail.jpeg"),
       github: "https://github.com/ziyasensoy/VoteVision",
       component: VoteVisionProject,
+      filters: ["hbo-ict", "code"],
     },
     {
       key: "meesterproef",
@@ -28,6 +31,7 @@ export const useProjects = () => {
       github: "https://github.com/ziyasensoy/Meesterproef",
       demo: "https://ziyasensoy.github.io/Meesterproef/",
       component: MeesterproefProject,
+      filters: ["minor-vid", "code"],
     },
     {
       key: "typografie",
@@ -35,6 +39,7 @@ export const useProjects = () => {
       github: "https://github.com/ziyasensoy/neude-type-specimen/",
       demo: "https://ziyasensoy.github.io/neude-type-specimen/",
       component: TypografieProject,
+      filters: ["minor-vid", "code"],
     },
     {
       key: "interfaceInteraction",
@@ -44,17 +49,20 @@ export const useProjects = () => {
         "/projects/interfaceinteractie/Eindproduct_Ziya_Sensoy.mp4",
       ),
       component: InterfaceInteractionProject,
+      filters: ["minor-vid"],
     },
     {
       key: "kleurCompositie",
       thumbnail: publicPath("/projects/thumbnails/kleurcompositie_thumbnail.jpeg"),
       demo: "https://www.figma.com/proto/aIwnjElmnG9Qrv5LD6pvcq/The-Golden-Roast---Designs?node-id=0-1&t=0cTaUvgtLMiYrhJZ-1",
       component: KleurCompositieProject,
+      filters: ["design", "minor-vid"],
     },
     {
       key: "beeldtaal",
       thumbnail: publicPath("/projects/thumbnails/beeldtaal_thumbnail.jpeg"),
       component: BeeldtaalProject,
+      filters: ["design", "minor-vid"],
     },
   ];
 

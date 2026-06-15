@@ -69,6 +69,13 @@
     "title": "Projects",
     "featured": "Featured projects",
     "viewMore": "View more",
+    "filters": {
+      "all": "All",
+      "code": "Code",
+      "design": "Design",
+      "hboIct": "HBO-ICT",
+      "minorVisualInterfaceDesign": "Minor Visual Interface Design"
+    },
 
     "items": {
       "votevision": {
