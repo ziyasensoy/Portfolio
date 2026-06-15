@@ -23,6 +23,15 @@
                     {{ t("General.hva") }}
                   </a>
                 </template>
+                <template #vision>
+                  <a
+                    href="#"
+                    class="about_description-links"
+                    @click.prevent="openVision"
+                  >
+                    {{ t("About.Vision.link") }}
+                  </a>
+                </template>
               </i18n-t>
             </p>
 
@@ -101,9 +110,65 @@
         </div>
       </div>
     </div>
+
+    <Teleport to="body">
+      <div v-if="showVision" class="vision_modal" @click.self="closeVision">
+        <div
+          class="vision_modal_content"
+          role="dialog"
+          aria-modal="true"
+          :aria-labelledby="visionTitleId"
+        >
+          <button
+            type="button"
+            class="vision_modal_close"
+            :aria-label="t('About.Vision.close')"
+            @click="closeVision"
+          >
+            <i class="uil uil-times"></i>
+          </button>
+
+          <h3 :id="visionTitleId" class="vision_modal_title">
+            {{ t("About.Vision.title") }}
+          </h3>
+          <p>{{ t("About.Vision.line1") }}</p>
+          <p>{{ t("About.Vision.line2") }}</p>
+          <p>{{ t("About.Vision.line3") }}</p>
+        </div>
+      </div>
+    </Teleport>
   </section>
 </template>
 
 <script setup lang="ts">
 const { t } = useI18n()
+const showVision = ref(false);
+const visionTitleId = "about-vision-title";
+
+function openVision() {
+  showVision.value = true;
+}
+
+function closeVision() {
+  showVision.value = false;
+}
+
+function handleKeydown(event: KeyboardEvent) {
+  if (event.key === "Escape") {
+    closeVision();
+  }
+}
+
+watch(showVision, (isOpen) => {
+  document.body.style.overflow = isOpen ? "hidden" : "";
+});
+
+onMounted(() => {
+  document.addEventListener("keydown", handleKeydown);
+});
+
+onUnmounted(() => {
+  document.removeEventListener("keydown", handleKeydown);
+  document.body.style.overflow = "";
+});
 </script>

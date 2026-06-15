@@ -59,10 +59,18 @@
   "About": {
     "title": "Over mij",
     "Description": {
-      "line1": "Hey! Ik ben Ziya Sensoy, een 3e-jaars Software Engineering student aan de {hva}. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn.",
+      "line1": "Hey! Ik ben Ziya Sensoy, een 3e-jaars Software Engineering student aan de {hva}. Ik vind het leuk om ideeën om te zetten in functionele digitale producten die zowel gebruiksvriendelijk als visueel aantrekkelijk zijn. {vision}",
       "line2": "Ik heb gewerkt en stage gelopen als Frontend Engineer bij SaaS startup {altura}, waar ik de workflow van bid managers heb verbeterd en de gebruiksvriendelijkheid van belangrijke onderdelen van het platform heb versterkt, onder andere door mijn stageonderzoek naar error handling in de applicatie. Momenteel volg ik de minor Visual Interface Design, waar ik onder andere interactie design, visueel design en gebruiksvriendelijk design leer.",
       "line3": "Naast software houd ik ervan om tijd door te brengen in de natuur, te reizen en te sporten. Ik ben daarnaast geïnteresseerd in geschiedenis en filosofie. {email} als je wilt kennismaken of ergens over wilt sparren.",
       "email": "Stuur me gerust een e-mail"
+    },
+    "Vision": {
+      "link": "Klik hier om mijn visie te bekijken",
+      "close": "Sluiten",
+      "title": "Mijn visie",
+      "line1": "Ik geloof dat technologie en design het meest waardevol zijn wanneer ze samenkomen in een gebruiksvriendelijke ervaring. Daarom staat de gebruiker bij mij altijd centraal. Digitale producten moeten intuïtief zijn, zodat gebruikers zich kunnen richten op hun doelen in plaats van op het begrijpen van de interface.",
+      "line2": "Ik geloof dat een interface meer moet doen dan alleen informatie presenteren; het moet een ervaring creëren. Door storytelling, interactie en doordacht design kunnen gebruikers actief betrokken raken bij content en deze op een natuurlijke en betekenisvolle manier ontdekken.",
+      "line3": "Wat mij onderscheidt, is mijn vermogen om creativiteit te combineren met programmeren. Met een achtergrond in Software Engineering en een sterke interesse in design kan ik zowel ontwerpen als ontwikkelen. Hierdoor kan ik ideeën omzetten in interactieve, gebruiksvriendelijke ervaringen."
     }
   },
   "Projects": {

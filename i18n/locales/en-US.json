@@ -59,10 +59,18 @@
   "About": {
     "title": "About Me",
     "Description": {
-      "line1": "Hey! I'm Ziya Sensoy, a third-year Software Engineering student at the {hva}. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing.",
+      "line1": "Hey! I'm Ziya Sensoy, a third-year Software Engineering student at the {hva}. I enjoy turning ideas into functional digital products that are both user-friendly and visually appealing. {vision}",
       "line2": "I worked and completed an internship as a Frontend Engineer at SaaS startup {altura}, where I improved the workflow of bid managers and enhanced the usability of key parts of the platform. This included conducting research on error handling within the application as part of my internship. I am currently completing the Visual Interface Design minor, where I study interaction design, visual design, and user-centered design.",
       "line3": "Outside of software, I enjoy spending time in nature, traveling, and staying active through sports. I am also interested in history and philosophy. Feel free to {email} if you'd like to connect or chat.",
       "email": "Shoot me an email"
+    },
+    "Vision": {
+      "link": "Click here to view my vision",
+      "close": "Close",
+      "title": "My Vision",
+      "line1": "I believe technology and design are most valuable when they come together in a user-friendly experience. That is why I always put the user first. Digital products should be intuitive, allowing users to focus on their goals rather than on understanding the interface.",
+      "line2": "I believe an interface should do more than simply present information; it should create an experience. Through storytelling, interaction, and thoughtful design, users can actively engage with content and discover it in a natural and meaningful way.",
+      "line3": "What sets me apart is my ability to combine creativity with programming. With a background in Software Engineering and a strong interest in design, I can both design and develop digital products. This allows me to transform ideas into interactive, user-friendly experiences."
     }
   },
   "Projects": {
