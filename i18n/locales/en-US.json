@@ -76,6 +76,12 @@
       "hboIct": "HBO-ICT",
       "minorVisualInterfaceDesign": "Minor Visual Interface Design"
     },
+    "sort": {
+      "label": "Sort by",
+      "favorites": "Favorites",
+      "oldest": "Oldest",
+      "newest": "Newest"
+    },
 
     "items": {
       "votevision": {

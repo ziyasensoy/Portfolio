@@ -11,6 +11,8 @@ export type Project = {
   thumbnail: string;
   component: Component;
   filters: ProjectFilterId[];
+  dateStart: string;
+  dateEnd: string;
   github?: string;
   demo?: string;
 };
@@ -24,6 +26,8 @@ export const useProjects = () => {
       github: "https://github.com/ziyasensoy/VoteVision",
       component: VoteVisionProject,
       filters: ["hbo-ict", "code"],
+      dateStart: "2024-09-01",
+      dateEnd: "2025-01-31",
     },
     {
       key: "meesterproef",
@@ -32,6 +36,8 @@ export const useProjects = () => {
       demo: "https://ziyasensoy.github.io/Meesterproef/",
       component: MeesterproefProject,
       filters: ["minor-vid", "code"],
+      dateStart: "2026-05-01",
+      dateEnd: "2026-06-30",
     },
     {
       key: "typografie",
@@ -40,6 +46,8 @@ export const useProjects = () => {
       demo: "https://ziyasensoy.github.io/neude-type-specimen/",
       component: TypografieProject,
       filters: ["minor-vid", "code"],
+      dateStart: "2026-02-01",
+      dateEnd: "2026-03-31",
     },
     {
       key: "interfaceInteraction",
@@ -50,6 +58,8 @@ export const useProjects = () => {
       ),
       component: InterfaceInteractionProject,
       filters: ["minor-vid"],
+      dateStart: "2026-04-01",
+      dateEnd: "2026-04-30",
     },
     {
       key: "kleurCompositie",
@@ -57,12 +67,16 @@ export const useProjects = () => {
       demo: "https://www.figma.com/proto/aIwnjElmnG9Qrv5LD6pvcq/The-Golden-Roast---Designs?node-id=0-1&t=0cTaUvgtLMiYrhJZ-1",
       component: KleurCompositieProject,
       filters: ["design", "minor-vid"],
+      dateStart: "2026-02-01",
+      dateEnd: "2026-03-31",
     },
     {
       key: "beeldtaal",
       thumbnail: publicPath("/projects/thumbnails/beeldtaal_thumbnail.jpeg"),
       component: BeeldtaalProject,
       filters: ["design", "minor-vid"],
+      dateStart: "2026-03-01",
+      dateEnd: "2026-03-31",
     },
   ];
 
