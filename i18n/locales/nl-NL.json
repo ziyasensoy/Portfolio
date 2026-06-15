@@ -93,7 +93,18 @@
         "name": "Meesterproef VID minor",
         "description": "Een educatieve website over de Noordzee waarin ik de kennis, creativiteit en ontwerpvaardigheden die ik tijdens mijn minor heb opgedaan heb samengebracht in een interactieve gebruikerservaring.",
         "stack": "React, TypeScript, CSS, Minor Visual Interface Design",
-        "date": "Mei 2026 - Jun 2026"
+        "date": "Mei 2026 - Jun 2026",
+        "content": {
+          "intro1": "Voor mijn meesterproef ontwikkelde ik een interactieve website over de Noordzee. Het doel van het project was om gebruikers op een toegankelijke en boeiende manier kennis te laten maken met de verschillende aspecten van de Noordzee. Door middel van storytelling en interactie worden gebruikers meegenomen op een digitale reis waarbij ze steeds dieper afdalen door de verschillende lagen van de zee en onderweg nieuwe informatie ontdekken.",
+          "intro2": "De website combineert een verhalende gebruikerservaring met een minimalistische vormgeving. Ontwikkeld met React, TypeScript en CSS, brengt het project design en development samen in één interactieve ervaring. Gebruikers niet alleen geïnformeerd, maar ook uitgenodigd om na te denken over de rol en betekenis van de Noordzee.",
+          "myFascinationTitle": "Mijn fascinatie voor de Noordzee",
+          "myFascination1": "Wat mij aansprak aan de Noordzee was dat ik eigenlijk weinig wist over wat er zich allemaal afspeelde in dit gebied. Veel mensen kennen de Noordzee vooral als een plek om naar het strand te gaan, maar tijdens mijn onderzoek ontdekte ik dat er veel meer gebeurt dan je op het eerste gezicht ziet. Onder het wateroppervlak komen natuur, scheepvaart, visserij, energie en andere menselijke activiteiten samen, waardoor de Noordzee een verrassend complex gebied blijkt te zijn.",
+          "myFascination2": "Juist omdat het onderwerp voor mij aanvankelijk relatief onbekend was, vond ik het interessant om er dieper in te duiken. Tijdens het project heb ik veel nieuwe kennis opgedaan over de Noordzee en de verschillende thema's die ermee verbonden zijn. Met deze meesterproef wilde ik die kennis op een toegankelijke en interactieve manier overbrengen aan de gebruiker, zodat ook zij een beter beeld krijgen van wat er zich afspeelt op, rond en onder de Noordzee.",
+          "persoonlijkeVisieTitle": "Persoonlijke visie",
+          "persoonlijkeVisie1": "Als ontwerper zet ik de gebruiker altijd centraal. Ik geloof dat een interface gebruiksvriendelijk en intuïtief moet zijn, zodat gebruikers zonder uitleg begrijpen hoe ze door een product kunnen navigeren. Een goed ontwerp ondersteunt de gebruiker en zorgt ervoor dat de aandacht naar de inhoud gaat, niet naar de werking van de interface.",
+          "persoonlijkeVisie2": "Daarnaast geloof ik dat een interface niet alleen informatie moet tonen, maar ook een ervaring moet creëren. Door storytelling en interactie toe te passen, kan een gebruiker actief betrokken worden bij de inhoud en deze op een natuurlijke manier ontdekken. Deze visie heb ik toegepast in mijn meesterproef door de gebruiker mee te nemen op een interactieve reis door de verschillende lagen van de Noordzee, waarbij informatie stap voor stap wordt verkend. Wat mij onderscheidt als ontwerper is dat ik creativiteit combineer met programmeren. Hierdoor kan ik creatieve concepten zelf realiseren tot bijvoorbeeld een website.",
+          "persoonlijkeVisie3": "Met deze meesterproef wilde ik de gebruiker meer leren over de Noordzee. Daarbij heb ik bewust geen persoonlijk standpunt ingenomen. In plaats daarvan wilde ik de gebruiker uitnodigen om zelf na te denken over de onderwerpen die aan bod komen en een eigen mening te vormen. "
+        }
       },
 
       "interfaceInteraction": {
