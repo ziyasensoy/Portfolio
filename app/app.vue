@@ -1,7 +1,9 @@
-<script setup>
+<script setup lang="ts">
+const { theme } = useTheme();
+
 useHead({
   bodyAttrs: {
-    class: "dark-theme",
+    class: computed(() => (theme.value === "dark" ? "dark-theme" : "")),
   },
 });
 </script>

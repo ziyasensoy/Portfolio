@@ -1,8 +1,5 @@
 <script setup lang="ts">
 import { ref, onMounted, onUnmounted } from "vue";
-import { useTheme } from "~/composables/useTheme";
-
-const { initTheme } = useTheme();
 
 const huePickerOpen = ref(false);
 const selectedHue = ref(210);
@@ -41,7 +38,6 @@ const handleClickOutside = (event: MouseEvent) => {
 };
 
 onMounted(() => {
-  initTheme();
   const savedHue = localStorage.getItem("selected-hue");
 
   if (savedHue) {

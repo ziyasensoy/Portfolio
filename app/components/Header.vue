@@ -71,16 +71,12 @@
 </template>
 
 <script setup lang="ts">
-import { ref, onMounted } from "vue";
+import { ref } from "vue";
 import { useTheme } from "~/composables/useTheme";
 
-const { icon, toggleTheme, initTheme } = useTheme();
+const { icon, toggleTheme } = useTheme();
 const { t } = useI18n()
 const localePath = useLocalePath();
-
-onMounted(() => {
-  initTheme();
-});
 
 const menuOpen = ref(false);
 
